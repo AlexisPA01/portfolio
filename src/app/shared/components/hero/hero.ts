@@ -1,12 +1,18 @@
 import { Component } from '@angular/core';
-import { Github, Linkedin, Mail } from '@lucide/angular';
+import { NgIcon, provideIcons } from '@ng-icons/core';
+import { bootstrapGithub, bootstrapLinkedin, bootstrapEnvelope } from '@ng-icons/bootstrap-icons'
 
 @Component({
   selector: 'app-hero',
   imports: [
-    Github,
-    Linkedin,
-    Mail
+    NgIcon
+  ],
+  providers: [
+    provideIcons({
+      bootstrapGithub,
+      bootstrapLinkedin,
+      bootstrapEnvelope
+    })
   ],
   templateUrl: './hero.html',
   styleUrl: './hero.css',

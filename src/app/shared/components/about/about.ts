@@ -1,9 +1,20 @@
-import { Component } from '@angular/core';
+import { Component, ChangeDetectionStrategy } from '@angular/core';
+import { NgIcon, provideIcons } from '@ng-icons/core';
+import { bootstrapGithub, bootstrapLinkedin, bootstrapEnvelope, bootstrapStar } from '@ng-icons/bootstrap-icons'
 
 @Component({
   selector: 'app-about',
-  imports: [],
+  imports: [
+    NgIcon
+  ],
+  providers: [
+    provideIcons({
+      bootstrapGithub,
+      bootstrapStar
+    })
+  ],
   templateUrl: './about.html',
+  changeDetection: ChangeDetectionStrategy.Eager,
   styleUrl: './about.css',
 })
-export class About {}
+export class About { }
