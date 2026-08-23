@@ -1,6 +1,6 @@
 import { Component, ChangeDetectionStrategy } from '@angular/core';
 import { NgIcon, provideIcons } from '@ng-icons/core';
-import { bootstrapGithub, bootstrapLinkedin, bootstrapEnvelope, bootstrapStar } from '@ng-icons/bootstrap-icons'
+import { bootstrapStar } from '@ng-icons/bootstrap-icons';
 
 @Component({
   selector: 'app-about',
@@ -9,7 +9,6 @@ import { bootstrapGithub, bootstrapLinkedin, bootstrapEnvelope, bootstrapStar } 
   ],
   providers: [
     provideIcons({
-      bootstrapGithub,
       bootstrapStar
     })
   ],
