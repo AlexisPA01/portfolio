@@ -1,1 +1,15 @@
-<p>featured-projects works!</p>
+<section class="featured-project">
+    <div class="featured-project__container">
+        <header class="featured-project__header">
+            <h2 class="featured-project__title">Proyectos destacados</h2>
+        </header>
+        <div class="featured-project__items">
+            @for (featuredProject of featuredProjects; track featuredProject.title) {
+
+            <app-featured-project-item [featuredProject]="featuredProject">
+            </app-featured-project-item>
+
+            }
+        </div>
+    </div>
+</section>

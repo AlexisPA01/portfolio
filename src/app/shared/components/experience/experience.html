@@ -1,1 +1,30 @@
-<p>experience works!</p>
+<section class="experience">
+
+    <div class="experience__container">
+
+        <div class="experience__header">
+
+            <p class="experience__subtitle">
+                Trayectoria
+            </p>
+
+            <h2 class="experience__title">
+                Experience
+            </h2>
+
+        </div>
+
+        <div class="experience__list">
+
+            @for (experience of experiences; track experience.company) {
+
+            <app-experience-item [experience]="experience">
+            </app-experience-item>
+
+            }
+
+        </div>
+
+    </div>
+
+</section>

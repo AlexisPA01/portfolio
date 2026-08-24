@@ -1,0 +1,28 @@
+<article class="featured-project-item">
+
+    <img class="featured-project-item__image" [src]="featuredProject.image" [alt]="featuredProject.title">
+    <div class="featured-project-item__content">
+        <h3 class="featured-project-item__title">
+            {{ featuredProject.title }}
+        </h3>
+
+        <p class="featured-project-item__description">
+            {{ featuredProject.description }}
+        </p>
+
+        <div class="featured-project-item__technologies">
+
+            @for (
+            technology of featuredProject.technologies;
+            track technology
+            ) {
+
+            <span class="featured-project-item__technology">
+                {{ technology }}
+            </span>
+
+            }
+
+        </div>
+    </div>
+</article>

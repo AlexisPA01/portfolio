@@ -2,17 +2,17 @@
     <div class="skill-category__header">
 
         <div class="skill-category__icon">
-            <ng-icon [name]="icon" class="about__card-icon"></ng-icon>
+            <ng-icon [name]="skill.icon" class="about__card-icon"></ng-icon>
         </div>
 
         <h3 class="skill-category__title">
-            {{ title }}
+            {{ skill.title }}
         </h3>
     </div>
 
     <div class="skill-category__list">
 
-        @for (skill of skills; track skill.name) {
+        @for (skill of skill.skillsIcons; track skill.name) {
         <span class="skill-category__item">
 
             <span class="skill-category__item-icon">

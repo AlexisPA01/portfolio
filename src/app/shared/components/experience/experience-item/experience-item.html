@@ -1,0 +1,39 @@
+<article class="experience-item">
+
+    <div class="experience-item__date">
+        {{ experience.startDate }} -
+        {{ experience.endDate }}
+    </div>
+
+    <div class="experience-item__content">
+
+        <h3 class="experience-item__position">
+            {{ experience.position }}
+        </h3>
+
+        <p class="experience-item__company">
+            {{ experience.company }}
+        </p>
+
+        <p class="experience-item__description">
+            {{ experience.description }}
+        </p>
+
+        <div class="experience-item__technologies">
+
+            @for (
+            technology of experience.technologies;
+            track technology
+            ) {
+
+            <span class="experience-item__technology">
+                {{ technology }}
+            </span>
+
+            }
+
+        </div>
+
+    </div>
+
+</article>

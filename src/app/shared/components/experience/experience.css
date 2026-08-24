@@ -1,0 +1,51 @@
+.experience {
+    display: flex;
+    justify-content: center;
+
+    padding: 100px 8%;
+
+    background-color: var(--color-bg);
+}
+
+.experience__container {
+    width: 100%;
+    max-width: 1000px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.experience__header {
+    text-align: center;
+}
+
+.experience__subtitle {
+    margin: 0 0 0.5rem;
+
+    color: var(--color-accent);
+
+    font-size: 0.9rem;
+    font-weight: 600;
+
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.experience__title {
+    margin: 0;
+
+    color: var(--color-text);
+
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.experience__list {
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 1.5rem;
+}

@@ -17,6 +17,17 @@ import {
   diNginxOriginal
 } from '@ng-icons/devicon/original';
 
+export interface SkillCategoryData {
+  title: string;
+  icon: string;
+  skillsIcons: SkillData[];
+}
+
+interface SkillData {
+  name: string;
+  icon: string;
+}
+
 @Component({
   selector: 'app-skill-category',
   standalone: true,
@@ -46,12 +57,5 @@ import {
   ],
 })
 export class SkillCategory {
-  @Input() title = '';
-  @Input() icon = '';
-  @Input() skills: Skill[] = [];
-}
-
-export class Skill {
-  name: string = '';
-  icon: string = '';
+  @Input() skill!: SkillCategoryData;
 }

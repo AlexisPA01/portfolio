@@ -1,5 +1,5 @@
 import { Component, ChangeDetectionStrategy } from '@angular/core';
-import { SkillCategory } from './skill-category/skill-category';
+import { SkillCategory, SkillCategoryData } from './skill-category/skill-category';
 
 @Component({
   selector: 'app-skills',
@@ -9,11 +9,11 @@ import { SkillCategory } from './skill-category/skill-category';
   styleUrl: './skills.css'
 })
 export class Skills {
-  skillCategories: SkillCategory[] = [
+  skillCategories: SkillCategoryData[] = [
     {
       title: 'Backend',
       icon: 'matBackup',
-      skills: [
+      skillsIcons: [
         {
           name: 'Node.js',
           icon: 'diNodejsOriginal'
@@ -31,7 +31,7 @@ export class Skills {
     {
       title: 'Frontend',
       icon: 'matDashboard',
-      skills: [
+      skillsIcons: [
         {
           name: 'Angular',
           icon: 'diAngularOriginal'
@@ -57,7 +57,7 @@ export class Skills {
     {
       title: 'Database',
       icon: 'matStorage',
-      skills: [
+      skillsIcons: [
         {
           name: 'PostgreSQL',
           icon: 'diPostgresqlOriginal'
@@ -75,7 +75,7 @@ export class Skills {
     {
       title: 'Cloud',
       icon: 'matCloud',
-      skills: [
+      skillsIcons: [
         {
           name: 'AWS',
           icon: 'diAmazonwebservicesOriginalWordmark'

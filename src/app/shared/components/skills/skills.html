@@ -9,9 +9,9 @@
             </p>
         </header>
         <div class="skills__categories">
-            @for (category of skillCategories; track category.title) {
+            @for (skillCategory of skillCategories; track skillCategory.title) {
 
-            <app-skill-category [title]="category.title" [icon]="category.icon" [skills]="category.skills">
+            <app-skill-category [skill]="skillCategory">
             </app-skill-category>
 
             }
