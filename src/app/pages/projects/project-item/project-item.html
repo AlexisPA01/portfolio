@@ -1,0 +1,55 @@
+<article class="project-item">
+
+    <img class="project-item__image" [src]="project.image" [alt]="project.title">
+    <div class="project-item__content">
+        <h3 class="project-item__title">
+            {{ project.title }}
+        </h3>
+
+        <p class="project-item__description">
+            {{ project.description }}
+        </p>
+
+        <div class="project-item__technologies">
+
+            @for (
+            technology of project.technologies;
+            track technology
+            ) {
+
+            <span class="project-item__technology">
+                {{ technology }}
+            </span>
+
+            }
+
+        </div>
+
+        <div class="project-item__dates">
+            {{ project.startDate }} - {{ project.endDate }}
+        </div>
+
+        @if (project.isPersonalProject) {
+        <p class="project-item__project-type">
+            Proyecto Personal <ng-icon name="bootstrapPerson"></ng-icon>
+        </p>
+        }@else{
+        <p class="project-item__project-type">
+            Experiencia Laboral <ng-icon name="bootstrapBuilding"></ng-icon>
+        </p>
+        }
+
+        <div class="project-item__actions">
+            @if (project.githubUrl) {
+            <a [href]="project.githubUrl" target="_blank" class="project-item__actions-item" aria-label="GitHub">
+                Repositorio <ng-icon name="bootstrapGithub"></ng-icon>
+            </a>
+            }
+            @if (project.projectUrl) {
+            <a [href]="project.projectUrl" target="_blank" class="project-item__actions-item" aria-label="GitHub">
+                Ver Proyecto <ng-icon name="bootstrapLink"></ng-icon>
+            </a>
+            }
+        </div>
+    </div>
+</article>

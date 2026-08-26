@@ -42,7 +42,6 @@
         color: var(--color-text);
 
         font-size: 1.15rem;
-        font-weight: 600;
     }
 
     .featured-project-item__description {

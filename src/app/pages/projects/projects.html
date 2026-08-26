@@ -1,0 +1,20 @@
+<section class="projects">
+    <header class="projects__header">
+        <h1 class="projects__title">
+            Todos mis proyectos
+        </h1>
+        <p class="projects__description">
+            Explora y revisa detalladamente los proyectos que he desarrollado o en los que he participado.
+        </p>
+    </header>
+    <div class="projects__content">
+
+
+        <div class="projects__items">
+            @for (project of projects; track project.title) {
+            <app-project-item [project]="project">
+            </app-project-item>
+            }
+        </div>
+    </div>
+</section>
