@@ -1,0 +1,245 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+    width: 100%;
+    min-height: 80vh;
+    padding: 60px 8%;
+    background-color: var(--color-bg);
+}
+
+.contact__hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+    width: 90%;
+    max-width: 1200px;
+}
+
+.contact__hero-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 600px;
+}
+
+.contact__hero-title {
+    color: var(--color-text);
+    font-size: 2.5rem;
+}
+
+.contact__hero-description {
+    color: var(--color-text-secondary);
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.contact__hero-image {
+    width: min(40vw, 450px);
+    height: 280px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px var(--color-primary);
+}
+
+.contact__body {
+    display: grid;
+    grid-template-columns: minmax(0, 1.5fr) minmax(300px, 1fr);
+    gap: 60px;
+    width: 90%;
+    max-width: 1200px;
+}
+
+.contact__form {
+    width: 100%;
+}
+
+.contact__form-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact__form-field {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.contact__form-field label {
+    color: var(--color-text);
+    font-size: 0.95rem;
+}
+
+.contact__form-field input,
+.contact__form-field textarea {
+    width: 100%;
+    padding: 12px 14px;
+    color: var(--color-text);
+    background-color: var(--color-bg-secondary);
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.2s ease;
+}
+
+.contact__form-field textarea {
+    min-height: 140px;
+    resize: vertical;
+}
+
+.contact__form-field input:focus,
+.contact__form-field textarea:focus {
+    border-color: var(--color-primary);
+}
+
+.contact__form-button {
+    align-self: flex-start;
+    padding: 12px 24px;
+    color: var(--color-text);
+    background-color: var(--color-primary);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.contact__sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.contact__info {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.contact__info-title {
+    color: var(--color-text);
+    font-size: 1.4rem;
+}
+
+.contact__info-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.contact__info-icon {
+    color: var(--color-primary);
+    font-size: 1.4rem;
+}
+
+.contact__info-content {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.contact__info-label {
+    color: var(--color-text);
+}
+
+.contact__info-value {
+    color: var(--color-text-secondary);
+    font-size: 0.95rem;
+    line-height: 1.4;
+}
+
+.contact__cv {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.contact__cv-title {
+    color: var(--color-text);
+    font-size: 1.3rem;
+}
+
+.contact__cv-description {
+    color: var(--color-text-secondary);
+    line-height: 1.5;
+}
+
+.contact__cv-download {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+
+    width: fit-content;
+    margin-top: 8px;
+
+    color: var(--color-primary);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.contact__cv-icon {
+    font-size: 1.1rem;
+}
+
+.contact__container {
+    background-color: var(--color-bg-secondary);
+    padding: 25px;
+    border-radius: 12px;
+    border: 2px solid var(--color-border);
+}
+
+@media (max-width: 900px) {
+    .contact__body {
+        gap: 30px;
+    }
+
+    .contact__container {
+        padding: 18px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .contact {
+        gap: 50px;
+        padding: 60px 24px;
+    }
+
+    .contact__hero {
+        flex-direction: column;
+        gap: 30px;
+
+        width: 100%;
+        text-align: center;
+    }
+
+    .contact__hero-content {
+        align-items: center;
+    }
+
+    .contact__hero-title {
+        font-size: 2rem;
+    }
+
+    .contact__hero-image {
+        width: min(80vw, 400px);
+        height: 230px;
+    }
+
+    .contact__body {
+        grid-template-columns: 1fr;
+        gap: 50px;
+
+        width: 100%;
+    }
+
+    .contact__form-button {
+        align-self: stretch;
+    }
+
+    .contact__cv {
+        text-align: center;
+        align-items: center;
+    }
+}

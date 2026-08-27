@@ -1,4 +1,4 @@
-import { Component, ChangeDetectionStrategy } from '@angular/core';
+import { Component } from '@angular/core';
 import { NgIcon, provideIcons } from '@ng-icons/core';
 import { bootstrapStar } from '@ng-icons/bootstrap-icons';
 
@@ -13,7 +13,6 @@ import { bootstrapStar } from '@ng-icons/bootstrap-icons';
     })
   ],
   templateUrl: './about.html',
-  changeDetection: ChangeDetectionStrategy.Eager,
   styleUrl: './about.css',
 })
 export class About { }

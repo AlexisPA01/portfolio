@@ -22,28 +22,20 @@
 
 .experience__subtitle {
     margin: 0 0 0.5rem;
-
     color: var(--color-accent);
-
     font-size: 0.9rem;
-
     letter-spacing: 0.08em;
     text-transform: uppercase;
 }
 
 .experience__title {
-    margin: 0;
-
     color: var(--color-text);
-
     font-size: 2rem;
 }
 
 .experience__list {
     position: relative;
-
     display: flex;
     flex-direction: column;
-
     gap: 1.5rem;
 }

@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { NgIcon, provideIcons } from '@ng-icons/core';
-import { bootstrapGithub, bootstrapLinkedin, bootstrapEnvelope } from '@ng-icons/bootstrap-icons'
+import { bootstrapGithub, bootstrapLinkedin, bootstrapEnvelope } from '@ng-icons/bootstrap-icons';
 
 @Component({
   selector: 'app-hero',

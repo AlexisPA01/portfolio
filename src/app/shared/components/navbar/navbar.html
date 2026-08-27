@@ -1,0 +1,36 @@
+<nav class="navbar">
+    <img src="home-background.jpg" alt="" class="navbar__logo">
+    <div class="navbar__list">
+        <a routerLink="/" class="navbar__list-item" routerLinkActive="navbar__list-item--active"
+            [routerLinkActiveOptions]="{ exact: true }">
+            Inicio
+        </a>
+
+        <a routerLink="/" fragment="about" class="navbar__list-item">
+            Sobre mí
+        </a>
+
+        <a routerLink="/projects" class="navbar__list-item" routerLinkActive="navbar__list-item--active">
+            Proyectos
+        </a>
+
+        <a routerLink="/contact" class="navbar__list-item" routerLinkActive="navbar__list-item--active">
+            Contacto
+        </a>
+        <div class="navbar__language">
+            <button type="button" class="navbar__language-button"
+                [class.navbar__language-button--active]="language.currentLanguage() === 'en'"
+                (click)="language.setLanguage('en')">
+                EN
+            </button>
+
+            <span class="navbar__language-separator">/</span>
+
+            <button type="button" class="navbar__language-button"
+                [class.navbar__language-button--active]="language.currentLanguage() === 'es'"
+                (click)="language.setLanguage('es')">
+                ES
+            </button>
+        </div>
+    </div>
+</nav>

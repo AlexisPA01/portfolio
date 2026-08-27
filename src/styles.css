@@ -16,6 +16,10 @@
     --color-success: #3DDC97;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     padding: 0;
     margin: 0;

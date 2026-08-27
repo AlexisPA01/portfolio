@@ -1,11 +1,10 @@
-import { Component, ChangeDetectionStrategy } from '@angular/core';
+import { Component } from '@angular/core';
 import { FeaturedProjectsItem, FeaturedProjectsItemData } from './featured-project-item/featured-project-item';
 
 @Component({
   selector: 'app-featured-projects',
   imports: [FeaturedProjectsItem],
   templateUrl: './featured-projects.html',
-  changeDetection: ChangeDetectionStrategy.Eager,
   styleUrl: './featured-projects.css',
 })
 export class FeaturedProjects {

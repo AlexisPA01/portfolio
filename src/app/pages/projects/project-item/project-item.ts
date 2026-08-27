@@ -1,6 +1,6 @@
 import { Component, Input } from '@angular/core';
 import { NgIcon, provideIcons } from '@ng-icons/core';
-import { bootstrapGithub, bootstrapLink, bootstrapPerson, bootstrapBuilding } from '@ng-icons/bootstrap-icons'
+import { bootstrapGithub, bootstrapLink, bootstrapPerson, bootstrapBuilding } from '@ng-icons/bootstrap-icons';
 
 export interface ProjectItemData {
   title: string;

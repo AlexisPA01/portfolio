@@ -1,32 +1,21 @@
 .experience-item {
     position: relative;
-
     display: grid;
     grid-template-columns: 150px 1fr;
-
     gap: 2rem;
-
     padding: 1.75rem;
-
     background-color: var(--color-bg-secondary);
-
     border: 1px solid var(--color-border);
     border-radius: 16px;
-
     transition:
         transform 0.25s ease,
         border-color 0.25s ease,
         box-shadow 0.25s ease;
 
-
-
     .experience-item__date {
         padding-top: 0.2rem;
-
         color: var(--color-accent);
-
         font-size: 0.85rem;
-
         line-height: 1.5;
     }
 
@@ -37,25 +26,18 @@
 
     .experience-item__position {
         margin: 0 0 0.35rem;
-
         color: var(--color-text);
-
         font-size: 1.15rem;
     }
 
     .experience-item__company {
         margin: 0 0 1rem;
-
         color: var(--color-accent);
-
         font-size: 0.95rem;
     }
 
     .experience-item__description {
-        margin: 0;
-
         color: var(--color-text-secondary);
-
         font-size: 0.95rem;
         line-height: 1.7;
     }
@@ -63,24 +45,17 @@
     .experience-item__technologies {
         display: flex;
         flex-wrap: wrap;
-
         gap: 0.5rem;
-
         margin-top: 1.25rem;
     }
 
     .experience-item__technology {
         padding: 0.4rem 0.7rem;
-
         border: 1px solid var(--color-border);
         border-radius: 999px;
-
         background-color: var(--color-bg);
-
         color: var(--color-text-secondary);
-
         font-size: 0.8rem;
-
         transition:
             color 0.2s ease,
             border-color 0.2s ease;
@@ -88,16 +63,13 @@
 
     .experience-item__technology:hover {
         color: var(--color-text);
-
         border-color: var(--color-accent);
     }
 }
 
 .experience-item:hover {
     transform: translateY(-3px);
-
     border-color: var(--color-accent);
-
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
 }
 

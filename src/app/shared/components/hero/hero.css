@@ -69,8 +69,8 @@
 
 .hero__image {
     width: min(40vw, 500px);
-    height: auto;
     object-fit: cover;
+    height: 400px;
     box-shadow: 0 4px 15px var(--color-primary);
 }
 
