@@ -1,20 +1,17 @@
 <section class="hero">
     <div class="hero__content">
-        <p class="hero__greeting">Hola, soy</p>
-        <h1 class="hero__title">Alexis Patiño Agudelo</h1>
-        <h2 class="hero__role">Full Stack Developer</h2>
-        <p class="hero__description">
-            Desarrollo aplicaciones webs, APIs escalables y
-            soluciones en la nube que resuelven problemas reales.
-        </p>
+        <p class="hero__greeting">{{ text.greeting }}</p>
+        <h1 class="hero__title">{{ text.title }}</h1>
+        <h2 class="hero__role">{{ text.role }}</h2>
+        <p class="hero__description">{{ text.description }}</p>
         <div class="hero__actions">
             <a href="" class="button button--primary">
-                Ver proyectos
+                {{ text.btnProjects }}
             </a>
-            <a href="" class="button button--secondary" download>Descargar CV</a>
+            <a href="" class="button button--secondary" download>{{ text.btnCurriculum }}</a>
 
         </div>
-        <div class="hero__socials">
+        <ul class="hero__socials">
             <li class="hero__social">
                 <a href="#" class="hero__social-link" aria-label="GitHub">
                     <ng-icon name="bootstrapGithub"></ng-icon>
@@ -28,7 +25,7 @@
                     <ng-icon name="bootstrapEnvelope"></ng-icon>
                 </a>
             </li>
-        </div>
+        </ul>
     </div>
     <img class="hero__image" src="home-background.jpg" alt="programmer">
 </section>

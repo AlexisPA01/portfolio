@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { SkillCategory, SkillCategoryData } from './skill-category/skill-category';
+import { TranslateService } from '../../services/translate';
 
 @Component({
   selector: 'app-skills',
@@ -8,6 +9,12 @@ import { SkillCategory, SkillCategoryData } from './skill-category/skill-categor
   styleUrl: './skills.css'
 })
 export class Skills {
+  constructor(public translation: TranslateService) { }
+
+  get text() {
+    return this.translation.translations.home.skills;
+  }
+
   skillCategories: SkillCategoryData[] = [
     {
       title: 'Backend',

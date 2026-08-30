@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { FeaturedProjectsItem, FeaturedProjectsItemData } from './featured-project-item/featured-project-item';
+import { TranslateService } from '../../services/translate';
 
 @Component({
   selector: 'app-featured-projects',
@@ -8,7 +9,17 @@ import { FeaturedProjectsItem, FeaturedProjectsItemData } from './featured-proje
   styleUrl: './featured-projects.css',
 })
 export class FeaturedProjects {
-  featuredProjects: FeaturedProjectsItemData[] = [
+  constructor(public translation: TranslateService) { }
+
+  get text() {
+    return this.translation.translations.home.featuredProjects;
+  }
+
+  get featuredProjects(): FeaturedProjectsItemData[] {
+    return this.translation.translations.home.featuredProjects.projects;
+  }
+
+  featuredProjects2: FeaturedProjectsItemData[] = [
     {
       title: 'Development Team Lead',
       image: 'placeholder-background.png',

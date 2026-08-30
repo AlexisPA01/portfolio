@@ -2,13 +2,10 @@
     <div class="contact__hero">
         <div class="contact__hero-content">
             <h1 class="contact__hero-title">
-                Hablemos
+                {{text.title}}
             </h1>
 
-            <p class="contact__hero-description">
-                ¿Tienes un proyecto o una oportunidad laboral?<br>
-                Me encantaría conversar contigo.
-            </p>
+            <p class="contact__hero-description">{{text.description}}</p>
         </div>
         <img class="contact__hero-image" src="home-background.jpg" alt="Programador trabajando">
     </div>
@@ -17,23 +14,23 @@
         <div class="contact__form contact__container">
             <form class="contact__form-content" action="">
                 <div class="contact__form-field">
-                    <label for="name">Nombre</label>
+                    <label for="name">{{text.formName}}</label>
                     <input type="text" name="name" id="name">
                 </div>
                 <div class="contact__form-field">
-                    <label for="email">Email</label>
+                    <label for="email">{{text.formEmail}}</label>
                     <input type="email" name="email" id="email">
                 </div>
                 <div class="contact__form-field">
-                    <label for="subject">Asunto</label>
+                    <label for="subject">{{text.formSubject}}</label>
                     <input type="text" name="subject" id="subject">
                 </div>
                 <div class="contact__form-field">
-                    <label for="message">Mensaje</label>
+                    <label for="message">{{text.formMessage}}</label>
                     <textarea name="message" id="message" rows="6"></textarea>
                 </div>
                 <button class="contact__form-button" type="submit">
-                    Enviar mensaje
+                    {{text.formBtn}}
                 </button>
             </form>
         </div>
@@ -41,13 +38,13 @@
         <aside class="contact__sidebar">
             <div class="contact__info contact__container">
                 <h2 class="contact__info-title">
-                    Información de contacto
+                    {{text.informationTitle}}
                 </h2>
                 <div class="contact__info-item">
                     <ng-icon name="bootstrapEnvelope" class="contact__info-icon"></ng-icon>
                     <div class="contact__info-content">
                         <span class="contact__info-label">
-                            Email
+                            {{text.informationEmail}}
                         </span>
                         <span class="contact__info-value">
                             alexispatino@gmail.com
@@ -59,7 +56,7 @@
                     <ng-icon name="bootstrapLinkedin" class="contact__info-icon"></ng-icon>
                     <div class="contact__info-content">
                         <span class="contact__info-label">
-                            LinkedIn
+                            {{text.informationLinkedin}}
                         </span>
                         <span class="contact__info-value">
                             linkedin.com/alexispa01
@@ -71,7 +68,7 @@
                     <ng-icon name="bootstrapGithub" class="contact__info-icon"></ng-icon>
                     <div class="contact__info-content">
                         <span class="contact__info-label">
-                            Github
+                            {{text.informationGithub}}
                         </span>
                         <span class="contact__info-value">
                             github.com/alexispa01
@@ -83,10 +80,10 @@
                     <ng-icon name="bootstrapPerson" class="contact__info-icon"></ng-icon>
                     <div class="contact__info-content">
                         <span class="contact__info-label">
-                            Disponibilidad
+                            {{text.informationAvailability}}
                         </span>
                         <span class="contact__info-value">
-                            Remoto / Híbrido | Presencial (Medellín)
+                            {{text.informationLocation}}
                         </span>
                     </div>
                 </div>
@@ -94,14 +91,14 @@
 
             <div class="contact__cv contact__container">
                 <h3 class="contact__cv-title">
-                    Descargar CV
+                    {{text.downloadTitle}}
                 </h3>
                 <p class="contact__cv-description">
-                    Conoce más sobre mi experiencia y trayectoria profesional.
+                    {{text.downloadDescription}}
                 </p>
                 <a href="" class="contact__cv-download">
                     <ng-icon name="bootstrapHandThumbsUp" class="contact__info-icon"></ng-icon>
-                    Descargar CV
+                    {{text.downloadBtn}}
                     <ng-icon name="bootstrapDownload" class="contact__info-icon"></ng-icon>
                 </a>
             </div>

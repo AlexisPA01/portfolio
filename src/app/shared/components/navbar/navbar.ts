@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Language } from '../../services/language';
+import { LanguageService } from '../../services/language';
 import {
   RouterLink,
   RouterLinkActive
@@ -15,7 +15,7 @@ import {
   styleUrl: './navbar.css',
 })
 export class Navbar {
-  constructor(public language: Language) {
+  constructor(public language: LanguageService) {
 
   }
 }

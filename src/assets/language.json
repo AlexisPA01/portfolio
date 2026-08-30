@@ -1,0 +1,370 @@
+{
+    "en": {
+        "home": {
+            "hero": {
+                "greeting": "Hello, I'm",
+                "title": "Alexis Patiño Agudelo",
+                "role": "Full Stack Developer",
+                "description": "I develop web applications, scalable APIs, and cloud solutions that solve real-world problems.",
+                "btnProjects": "View projects",
+                "btnCurriculum": "Download Resume"
+            },
+            "about": {
+                "title": "About me",
+                "description": "Systems Engineer with over 3 years of experience in software development. I specialize in developing Full Stack solutions, working across both frontend and backend. I also have hands-on experience with AWS, knowledge of SQL and NoSQL databases, and experience integrating third-party tools and platforms into real-world projects, including solutions deployed and used in production environments.",
+                "cardExperience": "Years of experience",
+                "cardProjects": "Projects in production",
+                "cardTechnologies": "Technologies used",
+                "cardCommitted": "Committed"
+            },
+            "skills": {
+                "title": "Skills",
+                "subTitle": "Technologies",
+                "description": "Technologies and tools I work with to build web solutions."
+            },
+            "experience": {
+                "title": "Experience",
+                "subTitle": "Career",
+                "experiences": [
+                    {
+                        "company": "Company A",
+                        "position": "Development Team Lead",
+                        "startDate": "2024",
+                        "endDate": "Present",
+                        "description": "Led the development team and built web solutions.",
+                        "technologies": [
+                            "Angular",
+                            "Node.js",
+                            "PostgreSQL",
+                            "AWS"
+                        ]
+                    },
+                    {
+                        "company": "Company B",
+                        "position": "Full Stack Developer",
+                        "startDate": "2022",
+                        "endDate": "2024",
+                        "description": "Developed web applications and APIs using modern technologies.",
+                        "technologies": [
+                            "Node.js",
+                            "Express",
+                            "MySQL",
+                            "AWS"
+                        ]
+                    }
+                ]
+            },
+            "featuredProjects": {
+                "title": "Featured Projects",
+                "projects": [
+                    {
+                        "title": "Development Team Lead",
+                        "image": "placeholder-background.png",
+                        "description": "Led the development team and built web solutions.",
+                        "technologies": [
+                            "Angular",
+                            "Node.js",
+                            "PostgreSQL",
+                            "AWS"
+                        ]
+                    },
+                    {
+                        "title": "Full Stack Developer",
+                        "image": "placeholder-background.png",
+                        "description": "Developed web applications and APIs using modern technologies.",
+                        "technologies": [
+                            "Node.js",
+                            "Express",
+                            "MySQL",
+                            "AWS"
+                        ]
+                    },
+                    {
+                        "title": "Full Stack Developer",
+                        "image": "placeholder-background.png",
+                        "description": "Developed web applications and APIs using modern technologies.",
+                        "technologies": [
+                            "Node.js",
+                            "Express",
+                            "MySQL",
+                            "AWS"
+                        ]
+                    }
+                ]
+            },
+            "contact": {
+                "title": "Have a project in mind?",
+                "description": "I'm available to discuss new projects and opportunities.",
+                "button": "Contact Me"
+            }
+        },
+        "projects": {
+            "title": "All My Projects",
+            "description": "Explore and review in detail the projects I have developed or contributed to.",
+            "projects": [
+                {
+                    "title": "Development Team Lead",
+                    "image": "placeholder-background.png",
+                    "description": "Leadership of the development team and the creation of web solutions.",
+                    "technologies": [
+                        "Angular",
+                        "Node.js",
+                        "PostgreSQL",
+                        "AWS"
+                    ],
+                    "startDate": "20/12/2021",
+                    "endDate": "Present",
+                    "isPersonalProject": true,
+                    "personalProject": "Personal Project",
+                    "companyProject": "Work Experience",
+                    "githubBtn": "Repository",
+                    "githubUrl": "https://www.google.com/",
+                    "projectBtn": "View Project",
+                    "projectUrl": "https://www.google.com/"
+                },
+                {
+                    "title": "Full Stack Developer",
+                    "image": "placeholder-background.png",
+                    "description": "Development of web applications and APIs using modern technologies.",
+                    "technologies": [
+                        "Node.js",
+                        "Express",
+                        "MySQL",
+                        "AWS"
+                    ],
+                    "startDate": "20/12/2021",
+                    "endDate": "25/06/2025",
+                    "isPersonalProject": false,
+                    "personalProject": "Personal Project",
+                    "companyProject": "Work Experience",
+                    "githubBtn": "Repository",
+                    "githubUrl": "https://www.google.com/",
+                    "projectBtn": "View Project",
+                    "projectUrl": "https://www.google.com/"
+                },
+                {
+                    "title": "Full Stack Developer",
+                    "image": "placeholder-background.png",
+                    "description": "Development of web applications and APIs using modern technologies.",
+                    "technologies": [
+                        "Node.js",
+                        "Express",
+                        "MySQL",
+                        "AWS"
+                    ],
+                    "startDate": "20/12/2021",
+                    "endDate": "25/06/2025",
+                    "isPersonalProject": false,
+                    "personalProject": "Personal Project",
+                    "companyProject": "Work Experience",
+                    "githubBtn": "Repository",
+                    "githubUrl": "https://www.google.com/",
+                    "projectBtn": "View Project",
+                    "projectUrl": "https://www.google.com/"
+                }
+            ]
+        },
+        "contact": {
+            "title": "Let's Talk",
+            "description": "Do you have a project or a job opportunity? \nI'd love to hear from you.",
+            "formName": "Name",
+            "formEmail": "Email",
+            "formSubject": "Subject",
+            "formMessage": "Message",
+            "formBtn": "Send Message",
+            "informationTitle": "Contact Information",
+            "informationEmail": "Email",
+            "informationLinkedin": "LinkedIn",
+            "informationGithub": "GitHub",
+            "informationAvailability": "Availability",
+            "informationLocation": "Remote / Hybrid | In-person (Medellín)",
+            "downloadTitle": "Download Resume",
+            "downloadDescription": "Learn more about my experience and professional background.",
+            "downloadBtn": "Download Resume"
+        }
+    },
+    "es": {
+        "home": {
+            "hero": {
+                "greeting": "Hola, soy",
+                "title": "Alexis Patiño Agudelo",
+                "role": "Full Stack Developer",
+                "description": "Desarrollo aplicaciones web, APIs escalables y soluciones en la nube que resuelven problemas reales.",
+                "btnProjects": "Ver proyectos",
+                "btnCurriculum": "Descargar CV"
+            },
+            "about": {
+                "title": "Sobre mi",
+                "description": "Ingeniero de Sistemas con más de 3 años de experiencia en desarrollo de software. Me especializo en el desarrollo de soluciones Full Stack, trabajando tanto enfrontend como en backend. También cuento con experiencia práctica en AWS,conocimientos en bases de datos SQL y NoSQL, y en la integración de herramientasy plataformas de terceros en proyectos reales, incluyendo soluciones desplegadas y utilizadas en entornos de producción.",
+                "cardExperience": "Años de esperiencia",
+                "cardProjects": "Proyectos en producción",
+                "cardTechnologies": "Tecnologías utilizadas",
+                "cardCommitted": "Comprometido"
+            },
+            "skills": {
+                "title": "Skills",
+                "subTitle": "Tecnologías",
+                "description": "Tecnologías y herramientas con las que trabajo para desarrollar soluciones web."
+            },
+            "experience": {
+                "title": "Experience",
+                "subTitle": "Trayectoria",
+                "experiences": [
+                    {
+                        "company": "Empresa A",
+                        "position": "Development Team Lead",
+                        "startDate": "2024",
+                        "endDate": "Actualidad",
+                        "description": "Liderazgo del equipo de desarrollo y construcción de soluciones web.",
+                        "technologies": [
+                            "Angular",
+                            "Node.js",
+                            "PostgreSQL",
+                            "AWS"
+                        ]
+                    },
+                    {
+                        "company": "Empresa B",
+                        "position": "Full Stack Developer",
+                        "startDate": "2022",
+                        "endDate": "2024",
+                        "description": "Desarrollo de aplicaciones web y APIs utilizando tecnologías modernas.",
+                        "technologies": [
+                            "Node.js",
+                            "Express",
+                            "MySQL",
+                            "AWS"
+                        ]
+                    }
+                ]
+            },
+            "featuredProjects": {
+                "title": "Proyectos Destacados",
+                "projects": [
+                    {
+                        "title": "Development Team Lead",
+                        "image": "placeholder-background.png",
+                        "description": "Liderazgo del equipo de desarrollo y construcción de soluciones web.",
+                        "technologies": [
+                            "Angular",
+                            "Node.js",
+                            "PostgreSQL",
+                            "AWS"
+                        ]
+                    },
+                    {
+                        "title": "Full Stack Developer",
+                        "image": "placeholder-background.png",
+                        "description": "Desarrollo de aplicaciones web y APIs utilizando tecnologías modernas.",
+                        "technologies": [
+                            "Node.js",
+                            "Express",
+                            "MySQL",
+                            "AWS"
+                        ]
+                    },
+                    {
+                        "title": "Full Stack Developer",
+                        "image": "placeholder-background.png",
+                        "description": "Desarrollo de aplicaciones web y APIs utilizando tecnologías modernas.",
+                        "technologies": [
+                            "Node.js",
+                            "Express",
+                            "MySQL",
+                            "AWS"
+                        ]
+                    }
+                ]
+            },
+            "contact": {
+                "title": "¿Tienes un proyecto en mente?",
+                "description": "Estoy disponible para conversar sobre nuevos proyectos y oportunidades.",
+                "button": "Contactame"
+            }
+        },
+        "projects": {
+            "title": "Todos mis proyectos",
+            "description": "Explora y revisa detalladamente los proyectos que he desarrollado o en los que he participado.",
+            "projects": [
+                {
+                    "title": "Development Team Lead",
+                    "image": "placeholder-background.png",
+                    "description": "Liderazgo del equipo de desarrollo y construcción de soluciones web.",
+                    "technologies": [
+                        "Angular",
+                        "Node.js",
+                        "PostgreSQL",
+                        "AWS"
+                    ],
+                    "startDate": "20/12/2021",
+                    "endDate": "Actualidad",
+                    "isPersonalProject": false,
+                    "personalProject": "Proyecto Personal",
+                    "companyProject": "Experiencia Laboral",
+                    "githubBtn": "Repositorio",
+                    "githubUrl": "https://www.google.com/",
+                    "projectBtn": "Ver Proyecto",
+                    "projectUrl": "https://www.google.com/"
+                },
+                {
+                    "title": "Full Stack Developer",
+                    "image": "placeholder-background.png",
+                    "description": "Desarrollo de aplicaciones web y APIs utilizando tecnologías modernas.",
+                    "technologies": [
+                        "Node.js",
+                        "Express",
+                        "MySQL",
+                        "AWS"
+                    ],
+                    "startDate": "20/12/2021",
+                    "endDate": "25/06/2025",
+                    "isPersonalProject": false,
+                    "personalProject": "Proyecto Personal",
+                    "companyProject": "Experiencia Laboral",
+                    "githubBtn": "Repositorio",
+                    "githubUrl": "https://www.google.com/",
+                    "projectBtn": "Ver Proyecto",
+                    "projectUrl": "https://www.google.com/"
+                },
+                {
+                    "title": "Full Stack Developer",
+                    "image": "placeholder-background.png",
+                    "description": "Desarrollo de aplicaciones web y APIs utilizando tecnologías modernas.",
+                    "technologies": [
+                        "Node.js",
+                        "Express",
+                        "MySQL",
+                        "AWS"
+                    ],
+                    "startDate": "20/12/2021",
+                    "endDate": "25/06/2025",
+                    "isPersonalProject": false,
+                    "personalProject": "Proyecto Personal",
+                    "companyProject": "Experiencia Laboral",
+                    "githubBtn": "Repositorio",
+                    "githubUrl": "https://www.google.com/",
+                    "projectBtn": "Ver Proyecto",
+                    "projectUrl": "https://www.google.com/"
+                }
+            ]
+        },
+        "contact": {
+            "title": "Hablemos",
+            "description": "¿Tienes un proyecto o una oportunidad laboral?\nMe encantaría conversar contigo.",
+            "formName": "Nombre",
+            "formEmail": "Correo",
+            "formSubject": "Asunto",
+            "formMessage": "Mensaje",
+            "formBtn": "Enviar mensaje",
+            "informationTitle": "Información de contacto",
+            "informationEmail": "Correo",
+            "informationLinkedin": "LinkedIn",
+            "informationGithub": "Github",
+            "informationAvailability": "Disponibilidad",
+            "informationLocation": "Remoto / Híbrido | Presencial (Medellín)",
+            "downloadTitle": "Descargar CV",
+            "downloadDescription": "Conoce más sobre mi experiencia y trayectoria profesional.",
+            "downloadBtn": "Descargar CV"
+        }
+    }
+}

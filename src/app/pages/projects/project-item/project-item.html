@@ -31,23 +31,23 @@
 
         @if (project.isPersonalProject) {
         <p class="project-item__project-type">
-            Proyecto Personal <ng-icon name="bootstrapPerson"></ng-icon>
+            {{ project.personalProject }} <ng-icon name="bootstrapPerson"></ng-icon>
         </p>
         }@else{
         <p class="project-item__project-type">
-            Experiencia Laboral <ng-icon name="bootstrapBuilding"></ng-icon>
+            {{ project.companyProject }} <ng-icon name="bootstrapBuilding"></ng-icon>
         </p>
         }
 
         <div class="project-item__actions">
             @if (project.githubUrl) {
             <a [href]="project.githubUrl" target="_blank" class="project-item__actions-item" aria-label="GitHub">
-                Repositorio <ng-icon name="bootstrapGithub"></ng-icon>
+                {{ project.githubBtn }} <ng-icon name="bootstrapGithub"></ng-icon>
             </a>
             }
             @if (project.projectUrl) {
             <a [href]="project.projectUrl" target="_blank" class="project-item__actions-item" aria-label="GitHub">
-                Ver Proyecto <ng-icon name="bootstrapLink"></ng-icon>
+                {{ project.projectBtn }} <ng-icon name="bootstrapLink"></ng-icon>
             </a>
             }
         </div>

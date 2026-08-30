@@ -5,7 +5,7 @@ export type LanguageCode = 'es' | 'en';
 @Injectable({
     providedIn: 'root'
 })
-export class Language {
+export class LanguageService {
     currentLanguage = signal<LanguageCode>('es');
 
     setLanguage(language: LanguageCode): void {

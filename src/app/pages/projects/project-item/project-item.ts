@@ -10,8 +10,12 @@ export interface ProjectItemData {
 
   startDate?: string;
   endDate?: string;
-  isPersonalProject?: boolean;
+  isPersonalProject: boolean;
+  personalProject: string;
+  companyProject: string;
+  githubBtn: string;
   githubUrl?: string;
+  projectBtn: string;
   projectUrl?: string;
 }
 
