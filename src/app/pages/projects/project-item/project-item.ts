@@ -1,8 +1,12 @@
 import { Component, Input } from '@angular/core';
 import { NgIcon, provideIcons } from '@ng-icons/core';
 import { bootstrapGithub, bootstrapLink, bootstrapPerson, bootstrapBuilding } from '@ng-icons/bootstrap-icons';
+import {
+  RouterLink
+} from '@angular/router';
 
 export interface ProjectItemData {
+  id: number;
   title: string;
   image: string;
   description: string;
@@ -22,7 +26,8 @@ export interface ProjectItemData {
 @Component({
   selector: 'app-project-item',
   imports: [
-    NgIcon
+    NgIcon,
+    RouterLink
   ],
   providers: [
     provideIcons({

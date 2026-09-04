@@ -1,0 +1,188 @@
+<section class="project-detail">
+    <a routerLink="/projects" class="project-detail__back">
+        ← {{ textPage.back}}
+    </a>
+
+
+    @if (project) {
+
+    <header class="project-detail__hero">
+
+        <div class="project-detail__hero-content">
+
+            <h1 class="project-detail__title">
+                {{ text?.title }}
+            </h1>
+
+            <p class="project-detail__subtitle">
+                {{ text?.subtitle }}
+            </p>
+
+            <div class="project-detail__technologies">
+
+                @for (
+                technology of text?.technologies;
+                track technology
+                ) {
+
+                <span class="project-detail__technology">
+                    {{ technology }}
+                </span>
+
+                }
+
+            </div>
+
+        </div>
+
+        <div class="project-detail__hero-image-wrapper">
+
+            <img [src]="text?.image" [alt]="text?.title" class="project-detail__hero-image">
+
+        </div>
+
+    </header>
+
+
+    <section class="project-detail__section">
+
+        <h2 class="project-detail__section-title">
+            {{ text?.description.title }}
+        </h2>
+
+        <p class="project-detail__section-text">
+            {{ text?.description.text }}
+        </p>
+
+    </section>
+
+
+    <section class="project-detail__section">
+
+        <h2 class="project-detail__section-title">
+            {{ text?.problem.title }}
+        </h2>
+
+        <p class="project-detail__section-text">
+            {{ text?.problem.text }}
+        </p>
+
+    </section>
+
+
+    <section class="project-detail__architecture">
+
+        <h2 class="project-detail__section-title">
+            {{ text?.architecture.title }}
+        </h2>
+
+        <div class="project-detail__architecture-wrapper">
+
+            <img [src]="text?.architectureImage" [alt]="text?.architecture.title"
+                class="project-detail__architecture-image">
+
+        </div>
+
+    </section>
+
+    <section class="project-detail__characteristics">
+
+        <div class="project-detail__characteristics-column">
+
+            <h2 class="project-detail__section-title">
+                {{ text?.functionality.title }}
+            </h2>
+
+            <ul class="project-detail__list">
+
+                @for (
+                item of text?.functionality.items;
+                track item
+                ) {
+
+                <li class="project-detail__list-item">
+                    <span class="project-detail__list-icon">
+                        ✓
+                    </span>
+
+                    {{ item }}
+                </li>
+
+                }
+
+            </ul>
+
+        </div>
+
+
+        <div class="project-detail__characteristics-column">
+
+            <h2 class="project-detail__section-title">
+                {{ text?.learning.title }}
+            </h2>
+
+            <ul class="project-detail__list">
+
+                @for (
+                item of text?.learning.items;
+                track item
+                ) {
+
+                <li class="project-detail__list-item">
+                    <span class="project-detail__list-icon">
+                        ✓
+                    </span>
+
+                    {{ item }}
+                </li>
+
+                }
+
+            </ul>
+
+        </div>
+
+    </section>
+
+    <section class="project-detail__links">
+
+        <h2 class="project-detail__section-title">
+            {{ textPage.link}}
+        </h2>
+
+        <div class="project-detail__buttons">
+
+            <a [href]="text?.github" target="_blank" rel="noopener noreferrer"
+                class="project-detail__button project-detail__button--secondary">
+                <span>GitHub</span>
+                {{ text?.links.github }}
+            </a>
+
+            <a [href]="text?.demo" target="_blank" rel="noopener noreferrer"
+                class="project-detail__button project-detail__button--primary">
+                {{ text?.links.demo }}
+            </a>
+
+        </div>
+
+    </section>
+
+    }
+
+    @else {
+
+    <div class="project-detail__not-found">
+
+        <h1>
+            {{ textPage.error}}
+        </h1>
+
+        <a routerLink="/projects">
+            {{ textPage.back}}
+        </a>
+
+    </div>
+
+    }
+
+</section>

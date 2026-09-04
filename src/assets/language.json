@@ -103,6 +103,7 @@
             "description": "Explore and review in detail the projects I have developed or contributed to.",
             "projects": [
                 {
+                    "id": 1,
                     "title": "Development Team Lead",
                     "image": "placeholder-background.png",
                     "description": "Leadership of the development team and the creation of web solutions.",
@@ -123,6 +124,7 @@
                     "projectUrl": "https://www.google.com/"
                 },
                 {
+                    "id": 2,
                     "title": "Full Stack Developer",
                     "image": "placeholder-background.png",
                     "description": "Development of web applications and APIs using modern technologies.",
@@ -143,6 +145,7 @@
                     "projectUrl": "https://www.google.com/"
                 },
                 {
+                    "id": 3,
                     "title": "Full Stack Developer",
                     "image": "placeholder-background.png",
                     "description": "Development of web applications and APIs using modern technologies.",
@@ -181,6 +184,52 @@
             "downloadTitle": "Download Resume",
             "downloadDescription": "Learn more about my experience and professional background.",
             "downloadBtn": "Download Resume"
+        },
+        "projectDetail": {
+            "back": "Back to projects",
+            "link": "Links",
+            "error": "Project not found",
+            "1": {
+                "title": "Flow Task",
+                "subtitle": "Project and task management API inspired by Jira.",
+                "description": {
+                    "title": "Description",
+                    "text": "Flow Task is a RESTful API for managing projects, tasks, users and roles. It includes JWT authentication, Swagger documentation and automated tests."
+                },
+                "problem": {
+                    "title": "Problem",
+                    "text": "Many project management tools are complex or expensive. Flow Task was created as a lightweight, scalable and easy-to-use solution for development teams."
+                },
+                "architecture": {
+                    "title": "Architecture"
+                },
+                "functionality": {
+                    "title": "Features",
+                    "items": [
+                        "JWT authentication and authorization",
+                        "User and role management",
+                        "Projects and tasks CRUD",
+                        "Task assignment",
+                        "Filtering, search and pagination",
+                        "Swagger documentation",
+                        "Unit and integration tests"
+                    ]
+                },
+                "learning": {
+                    "title": "Challenges and learnings",
+                    "items": [
+                        "Scalable architecture design",
+                        "PostgreSQL relationships",
+                        "Robust validation with Zod",
+                        "Testing and code coverage",
+                        "AWS deployment with Docker"
+                    ]
+                },
+                "links": {
+                    "github": "View on GitHub",
+                    "demo": "View demo"
+                }
+            }
         }
     },
     "es": {
@@ -287,6 +336,7 @@
             "description": "Explora y revisa detalladamente los proyectos que he desarrollado o en los que he participado.",
             "projects": [
                 {
+                    "id": 1,
                     "title": "Development Team Lead",
                     "image": "placeholder-background.png",
                     "description": "Liderazgo del equipo de desarrollo y construcción de soluciones web.",
@@ -307,6 +357,7 @@
                     "projectUrl": "https://www.google.com/"
                 },
                 {
+                    "id": 2,
                     "title": "Full Stack Developer",
                     "image": "placeholder-background.png",
                     "description": "Desarrollo de aplicaciones web y APIs utilizando tecnologías modernas.",
@@ -327,6 +378,7 @@
                     "projectUrl": "https://www.google.com/"
                 },
                 {
+                    "id": 3,
                     "title": "Full Stack Developer",
                     "image": "placeholder-background.png",
                     "description": "Desarrollo de aplicaciones web y APIs utilizando tecnologías modernas.",
@@ -365,6 +417,52 @@
             "downloadTitle": "Descargar CV",
             "downloadDescription": "Conoce más sobre mi experiencia y trayectoria profesional.",
             "downloadBtn": "Descargar CV"
+        },
+        "projectDetail": {
+            "back": "Volver a proyectos",
+            "link": "Enlaces",
+            "error": "Proyecto no encontrado",
+            "1": {
+                "title": "Flow Task",
+                "subtitle": "API para gestión de proyectos y tareas estilo Jira.",
+                "description": {
+                    "title": "Descripción",
+                    "text": "Flow Task es una API RESTful que permite gestionar proyectos, tareas, usuarios y roles. Incluye autenticación JWT, documentación con Swagger y tests automatizados."
+                },
+                "problem": {
+                    "title": "Problema",
+                    "text": "Muchas herramientas de gestión de proyectos son complejas o costosas. Flow Task nace como una solución ligera, escalable y fácil de usar para equipos de desarrollo."
+                },
+                "architecture": {
+                    "title": "Arquitectura"
+                },
+                "functionality": {
+                    "title": "Funcionalidades",
+                    "items": [
+                        "Autenticación y autorización con JWT",
+                        "Gestión de usuarios y roles",
+                        "CRUD de proyectos y tareas",
+                        "Asignación de tareas a usuarios",
+                        "Filtros, búsqueda y paginación",
+                        "Documentación con Swagger",
+                        "Tests unitarios y de integración"
+                    ]
+                },
+                "learning": {
+                    "title": "Retos y aprendizajes",
+                    "items": [
+                        "Diseño de arquitectura escalable",
+                        "Relaciones en PostgreSQL",
+                        "Validaciones robustas con Zod",
+                        "Testing y cobertura de código",
+                        "Despliegue en AWS con Docker"
+                    ]
+                },
+                "links": {
+                    "github": "Ver en GitHub",
+                    "demo": "Ver demo"
+                }
+            }
         }
     }
 }
