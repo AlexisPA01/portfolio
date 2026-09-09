@@ -4,6 +4,7 @@ import { matBackup, matDashboard, matStorage, matCloud, } from '@ng-icons/materi
 import {
   diNodejsOriginal,
   diExpressOriginal,
+  diPythonOriginal,
   diFastapiOriginal,
   diAngularOriginal,
   diIonicOriginal,
@@ -42,6 +43,7 @@ interface SkillData {
       matCloud,
       diNodejsOriginal,
       diExpressOriginal,
+      diPythonOriginal,
       diFastapiOriginal,
       diAngularOriginal,
       diIonicOriginal,

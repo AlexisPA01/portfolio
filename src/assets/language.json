@@ -27,27 +27,28 @@
                 "subTitle": "Career",
                 "experiences": [
                     {
-                        "company": "Company A",
-                        "position": "Development Team Lead",
-                        "startDate": "2024",
-                        "endDate": "Present",
-                        "description": "Led the development team and built web solutions.",
+                        "company": "Mas Alcance",
+                        "position": "Full Stack Developer",
+                        "startDate": "December 2022",
+                        "endDate": "February 2023",
+                        "description": "My role was to develop a Progressive Web Application (PWA) and a RESTful API for a public bicycle-sharing system, enabling residents of the city to rent, return, and manage bicycles.",
                         "technologies": [
+                            "Ionic",
                             "Angular",
-                            "Node.js",
-                            "PostgreSQL",
-                            "AWS"
+                            "Node.js"
                         ]
                     },
                     {
-                        "company": "Company B",
-                        "position": "Full Stack Developer",
-                        "startDate": "2022",
-                        "endDate": "2024",
-                        "description": "Developed web applications and APIs using modern technologies.",
+                        "company": "Mas Alcance",
+                        "position": "Development Team Lead",
+                        "startDate": "March 2023",
+                        "endDate": "Present",
+                        "description": "Lead the development team in the design, planning, and implementation of web solutions. Responsible for database modeling and design for new systems, AWS infrastructure architecture and deployment, and overseeing the full software development lifecycle. I also actively develop critical features, define technical requirements, ensure code quality, and support the team's technical decision-making process.",
                         "technologies": [
+                            "Ionic",
+                            "Angular",
                             "Node.js",
-                            "Express",
+                            "Python",
                             "MySQL",
                             "AWS"
                         ]
@@ -251,7 +252,7 @@
                 "cardCommitted": "Comprometido"
             },
             "skills": {
-                "title": "Skills",
+                "title": "Habilidades",
                 "subTitle": "Tecnologías",
                 "description": "Tecnologías y herramientas con las que trabajo para desarrollar soluciones web."
             },
@@ -260,27 +261,28 @@
                 "subTitle": "Trayectoria",
                 "experiences": [
                     {
-                        "company": "Empresa A",
-                        "position": "Development Team Lead",
-                        "startDate": "2024",
-                        "endDate": "Actualidad",
-                        "description": "Liderazgo del equipo de desarrollo y construcción de soluciones web.",
+                        "company": "Mas Alcance",
+                        "position": "Desarrollador Full Stack",
+                        "startDate": "Diciembre 2022",
+                        "endDate": "Febrero 2023",
+                        "description": "Mi función consistió en desarrollar una aplicación web progresiva (PWA) y una API RESTful para un sistema público de bicicletas compartidas, permitiendo a los residentes de la ciudad alquilar, devolver y gestionar bicicletas.",
                         "technologies": [
+                            "Ionic",
                             "Angular",
-                            "Node.js",
-                            "PostgreSQL",
-                            "AWS"
+                            "Node.js"
                         ]
                     },
                     {
-                        "company": "Empresa B",
-                        "position": "Full Stack Developer",
-                        "startDate": "2022",
-                        "endDate": "2024",
-                        "description": "Desarrollo de aplicaciones web y APIs utilizando tecnologías modernas.",
+                        "company": "Mas Alcance",
+                        "position": "Líder de desarrollo",
+                        "startDate": "Marzo 2023",
+                        "endDate": "Actualidad",
+                        "description": "Lidero el equipo de desarrollo en el diseño, planificación e implementación de soluciones web. Soy responsable del modelamiento y diseño de bases de datos para nuevos sistemas, la arquitectura y despliegue de infraestructura en AWS, y la supervisión del ciclo completo de desarrollo. Además, participo activamente en el desarrollo de funcionalidades críticas, definiendo requerimientos técnicos, garantizando la calidad del código y apoyando la toma de decisiones tecnológicas del equipo.",
                         "technologies": [
+                            "Ionic",
+                            "Angular",
                             "Node.js",
-                            "Express",
+                            "Python",
                             "MySQL",
                             "AWS"
                         ]

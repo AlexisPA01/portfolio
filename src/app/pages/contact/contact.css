@@ -149,6 +149,16 @@
     line-height: 1.4;
 }
 
+.contact__info-link {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.contact__info-link:hover {
+    color: var(--color-primary);
+    transform: translateY(-2px);
+}
+
 .contact__cv {
     display: flex;
     flex-direction: column;

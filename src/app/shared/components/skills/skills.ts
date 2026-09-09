@@ -29,6 +29,10 @@ export class Skills {
           icon: 'diExpressOriginal'
         },
         {
+          name: 'Python',
+          icon: 'diPythonOriginal'
+        },
+        {
           name: 'FastAPI',
           icon: 'diFastapiOriginal'
         }
