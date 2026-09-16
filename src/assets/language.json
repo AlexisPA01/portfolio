@@ -61,34 +61,41 @@
                     {
                         "title": "Development Team Lead",
                         "image": "placeholder-background.png",
-                        "description": "Led the development team and built web solutions.",
+                        "description": "I led the development of a web-based system for parking lot management and operations, from the initial design through development, maintenance, and support.",
                         "technologies": [
                             "Angular",
-                            "Node.js",
-                            "PostgreSQL",
-                            "AWS"
+                            "Ionic",
+                            "Express.js",
+                            "MySQL",
+                            "AWS",
+                            "Ubuntu"
                         ]
                     },
                     {
-                        "title": "Full Stack Developer",
+                        "title": "Development Lead",
                         "image": "placeholder-background.png",
-                        "description": "Developed web applications and APIs using modern technologies.",
+                        "description": "I led the development of various technology solutions for a client in the hospitality sector, including mobile applications, PWAs for employees, and an administrative web platform.",
                         "technologies": [
-                            "Node.js",
-                            "Express",
+                            "Angular",
+                            "Ionic",
+                            "Android",
+                            "iOS",
+                            "Express.js",
                             "MySQL",
-                            "AWS"
+                            "AWS",
+                            "Ubuntu"
                         ]
                     },
                     {
-                        "title": "Full Stack Developer",
+                        "title": "Development Lead",
                         "image": "placeholder-background.png",
-                        "description": "Developed web applications and APIs using modern technologies.",
+                        "description": "I led the development and evolution of a web platform for managing advertising campaigns through integration with Authorized Buyers, introducing new features and support for native advertising.",
                         "technologies": [
-                            "Node.js",
-                            "Express",
-                            "MySQL",
-                            "AWS"
+                            "Angular",
+                            "Flask",
+                            "MongoDB",
+                            "AWS",
+                            "Authorized Buyers"
                         ]
                     }
                 ]
@@ -107,64 +114,128 @@
                     "id": 1,
                     "title": "Development Team Lead",
                     "image": "placeholder-background.png",
-                    "description": "Leadership of the development team and the creation of web solutions.",
+                    "description": "I led the development of a web-based system for parking lot management and operations, including administrative and operational modules for controlling vehicle entry and exit. I participated in database design, functionality definition, and the initial AWS infrastructure setup. I later took full responsibility for the project's development, maintenance, and support, including its migration to a private server and integrations with external services such as electronic invoicing and printing invoices using a mobile app.",
                     "technologies": [
                         "Angular",
-                        "Node.js",
-                        "PostgreSQL",
-                        "AWS"
+                        "Ionic",
+                        "Express.js",
+                        "JWT",
+                        "MySQL",
+                        "AWS",
+                        "Ubuntu"
                     ],
-                    "startDate": "20/12/2021",
-                    "endDate": "Present",
-                    "isPersonalProject": true,
+                    "startDate": "21/12/2023",
+                    "endDate": "23/07/2026",
+                    "isPersonalProject": false,
                     "personalProject": "Personal Project",
                     "companyProject": "Work Experience",
-                    "githubBtn": "Repository",
-                    "githubUrl": "https://www.google.com/",
-                    "projectBtn": "View Project",
-                    "projectUrl": "https://www.google.com/"
+                    "githubBtn": "View PWA",
+                    "githubUrl": "https://imsmanager-pwa.web.app/",
+                    "projectBtn": "View Admin Page",
+                    "projectUrl": "https://vcloud04.vit.com.co/",
+                    "githubIcon": "bootstrapLink",
+                    "projectIcon": "bootstrapLink"
                 },
                 {
                     "id": 2,
-                    "title": "Full Stack Developer",
+                    "title": "Development Lead",
                     "image": "placeholder-background.png",
-                    "description": "Development of web applications and APIs using modern technologies.",
+                    "description": "I led the development of various technology solutions for a client in the hospitality sector, including a mobile application for iOS and Android, PWAs for employees, and an administrative web platform. I initially participated in feature development and later took on responsibilities for database design, infrastructure, and AWS services.",
                     "technologies": [
-                        "Node.js",
-                        "Express",
+                        "Angular",
+                        "Ionic",
+                        "Android",
+                        "iOS",
+                        "Express.js",
                         "MySQL",
-                        "AWS"
+                        "AWS",
+                        "Ubuntu"
                     ],
-                    "startDate": "20/12/2021",
-                    "endDate": "25/06/2025",
+                    "startDate": "15/03/2023",
+                    "endDate": "Present",
                     "isPersonalProject": false,
                     "personalProject": "Personal Project",
                     "companyProject": "Work Experience",
-                    "githubBtn": "Repository",
-                    "githubUrl": "https://www.google.com/",
-                    "projectBtn": "View Project",
-                    "projectUrl": "https://www.google.com/"
+                    "githubBtn": "View Application",
+                    "githubUrl": "URL",
+                    "projectBtn": "View Platform",
+                    "projectUrl": "URL",
+                    "githubIcon": "bootstrapLink",
+                    "projectIcon": "bootstrapLink"
                 },
                 {
                     "id": 3,
-                    "title": "Full Stack Developer",
+                    "title": "Development Lead",
                     "image": "placeholder-background.png",
-                    "description": "Development of web applications and APIs using modern technologies.",
+                    "description": "I led the development and evolution of a web platform for creating and managing advertising campaigns through integration with Authorized Buyers. I initially provided support and maintenance for the existing solution and later took on the development of new features, including the implementation of native advertising campaigns.",
                     "technologies": [
+                        "Angular",
+                        "Flask",
                         "Node.js",
-                        "Express",
-                        "MySQL",
-                        "AWS"
+                        "MongoDB",
+                        "AWS",
+                        "Authorized Buyers"
                     ],
-                    "startDate": "20/12/2021",
-                    "endDate": "25/06/2025",
+                    "startDate": "20/01/2026",
+                    "endDate": "Present",
                     "isPersonalProject": false,
                     "personalProject": "Personal Project",
                     "companyProject": "Work Experience",
-                    "githubBtn": "Repository",
-                    "githubUrl": "https://www.google.com/",
-                    "projectBtn": "View Project",
-                    "projectUrl": "https://www.google.com/"
+                    "githubBtn": "View Platform",
+                    "githubUrl": "https://clic-ads.com.co",
+                    "projectBtn": "View Platform",
+                    "projectUrl": "https://clic-ads.com.co",
+                    "githubIcon": "bootstrapLink",
+                    "projectIcon": "bootstrapLink"
+                },
+                {
+                    "id": 4,
+                    "title": "Flow Task",
+                    "image": "placeholder-background.png",
+                    "description": "I developed a RESTful API for project and task management, designed with a modular and scalable architecture. The solution incorporates JWT authentication, CRUD operations, Zod-based validation, and PostgreSQL data persistence. It also includes interactive documentation with Swagger and automated testing with Vitest and Supertest.",
+                    "technologies": [
+                        "Node.js",
+                        "Express.js",
+                        "PostgreSQL",
+                        "JWT",
+                        "Zod",
+                        "Swagger",
+                        "Vitest",
+                        "Supertest"
+                    ],
+                    "startDate": "16/03/2026",
+                    "endDate": "04/05/2026",
+                    "isPersonalProject": true,
+                    "personalProject": "Personal Project",
+                    "companyProject": "Work Experience",
+                    "githubBtn": "View on GitHub",
+                    "githubUrl": "https://github.com/AlexisPA01/flow-task",
+                    "projectBtn": "View Documentation",
+                    "projectUrl": "https://flow-task.alexis-patino.xyz/docs/",
+                    "githubIcon": "bootstrapGithub",
+                    "projectIcon": "bootstrapLink"
+                },
+                {
+                    "id": 5,
+                    "title": "White-Label Web Template",
+                    "image": "placeholder-background.png",
+                    "description": "I developed a white-label static web project consisting of multiple pages and built with HTML, CSS, and JavaScript. The solution features reusable navigation, light and dark theme switching, and an organized, responsive, and easily adaptable structure for different types of websites.",
+                    "technologies": [
+                        "HTML",
+                        "CSS",
+                        "JavaScript"
+                    ],
+                    "startDate": "04/03/2026",
+                    "endDate": "14/04/2026",
+                    "isPersonalProject": true,
+                    "personalProject": "Personal Project",
+                    "companyProject": "Work Experience",
+                    "githubBtn": "View on GitHub",
+                    "githubUrl": "https://github.com/AlexisPA01/simple-web-layout",
+                    "projectBtn": "View Website",
+                    "projectUrl": "https://simple-web-layout.alexis-patino.xyz/",
+                    "githubIcon": "bootstrapGithub",
+                    "projectIcon": "bootstrapLink"
                 }
             ]
         },
@@ -191,15 +262,15 @@
             "link": "Links",
             "error": "Project not found",
             "1": {
-                "title": "Flow Task",
-                "subtitle": "Project and task management API inspired by Jira.",
+                "title": "IMS Manager",
+                "subtitle": "System for parking lot management and operations.",
                 "description": {
                     "title": "Description",
-                    "text": "Flow Task is a RESTful API for managing projects, tasks, users and roles. It includes JWT authentication, Swagger documentation and automated tests."
+                    "text": "Web-based system for the management and operation of parking facilities, consisting of an administrative module for service management and control, and an operational module for recording vehicle entries and exits. I participated in the end-to-end development of the platform from its early stages."
                 },
                 "problem": {
                     "title": "Problem",
-                    "text": "Many project management tools are complex or expensive. Flow Task was created as a lightweight, scalable and easy-to-use solution for development teams."
+                    "text": "The client needed to centralize the administration and operation of its parking lots in a platform that would efficiently monitor vehicle entry and exit, simplify service management, and optimize daily operations. The platform also needed to allow operators to manage vehicle entry and exit within each zone across the different parking facilities and be able to print the corresponding invoice."
                 },
                 "architecture": {
                     "title": "Architecture"
@@ -207,28 +278,198 @@
                 "functionality": {
                     "title": "Features",
                     "items": [
-                        "JWT authentication and authorization",
-                        "User and role management",
-                        "Projects and tasks CRUD",
-                        "Task assignment",
-                        "Filtering, search and pagination",
-                        "Swagger documentation",
-                        "Unit and integration tests"
+                        "Parking lot administration and management",
+                        "Vehicle entry and exit registration and control",
+                        "User and permission management",
+                        "Parking operation management and control",
+                        "Integration with electronic invoicing services",
+                        "Management and consultation of operational information",
+                        "Platform maintenance and technical support"
                     ]
                 },
                 "learning": {
                     "title": "Challenges and learnings",
                     "items": [
-                        "Scalable architecture design",
-                        "PostgreSQL relationships",
-                        "Robust validation with Zod",
-                        "Testing and code coverage",
-                        "AWS deployment with Docker"
+                        "Database design and modeling",
+                        "End-to-end development of a web application",
+                        "AWS infrastructure configuration",
+                        "Migration of the platform to a private server",
+                        "Integration with external services",
+                        "Electronic invoicing and third-party integrations",
+                        "Maintenance and support of a production application"
+                    ]
+                },
+                "links": {
+                    "github": "View Admin Page",
+                    "demo": "View PWA"
+                }
+            },
+            "2": {
+                "title": "Hotel Technology Solutions",
+                "subtitle": "Comprehensive technology platform for hotel service management.",
+                "description": {
+                    "title": "Description",
+                    "text": "Project focused on developing various technology solutions for a client in the hospitality sector, consisting of a mobile application for iOS and Android, dedicated PWAs for employees, and an administrative web platform. I participated in feature development and later took on responsibilities for database design and infrastructure."
+                },
+                "problem": {
+                    "title": "Challenge",
+                    "text": "The client needed multiple technology solutions to manage and provide hotel services, serving guests, employees, and administrative staff. The platforms needed to support hotel and service browsing and booking, internal operations monitoring, and overall administration."
+                },
+                "architecture": {
+                    "title": "Architecture"
+                },
+                "functionality": {
+                    "title": "Features",
+                    "items": [
+                        "Hotel and service browsing",
+                        "Hotel and service booking",
+                        "Mobile application for iOS and Android using Ionic",
+                        "PWAs for employees and operational management",
+                        "Administrative web platform",
+                        "Hotel information and service management",
+                        "Solution support and maintenance"
+                    ]
+                },
+                "learning": {
+                    "title": "Challenges and Learnings",
+                    "items": [
+                        "Development of cross-platform solutions",
+                        "Database design and modeling",
+                        "AWS infrastructure configuration",
+                        "Cloud service administration",
+                        "Development of applications for different user types",
+                        "Integration of multiple technology solutions",
+                        "Maintenance and support of production platforms"
+                    ]
+                },
+                "links": {
+                    "github": "View Application",
+                    "demo": "View Platform"
+                }
+            },
+            "3": {
+                "title": "Digital Advertising Platform",
+                "subtitle": "Web platform for managing advertising campaigns through Authorized Buyers.",
+                "description": {
+                    "title": "Description",
+                    "text": "Web platform focused on creating and managing advertising campaigns through integration with Authorized Buyers. I initially participated in the support and maintenance of an existing solution and later took on the development of new features and improvements to expand its capabilities."
+                },
+                "problem": {
+                    "title": "Problem",
+                    "text": "The platform needed to evolve to expand its advertising campaign management capabilities and support new ad formats. The existing solution was limited to Display campaigns, making it necessary to introduce support for native advertising without affecting the functionality already in place."
+                },
+                "architecture": {
+                    "title": "Architecture"
+                },
+                "functionality": {
+                    "title": "Features",
+                    "items": [
+                        "Creation and management of advertising campaigns",
+                        "Integration with Authorized Buyers",
+                        "Management of Display advertising campaigns",
+                        "Implementation of Native advertising campaigns",
+                        "Ad management and configuration",
+                        "Platform support and maintenance",
+                        "Development and improvement of new features"
+                    ]
+                },
+                "learning": {
+                    "title": "Challenges and Learnings",
+                    "items": [
+                        "Maintaining a production platform",
+                        "Learning new programming languages such as Python",
+                        "Integration with Authorized Buyers",
+                        "Developing features on top of an existing solution",
+                        "Implementing native advertising",
+                        "Developing and evolving an advertising platform",
+                        "Supporting and maintaining existing applications"
+                    ]
+                },
+                "links": {
+                    "github": "View Platform",
+                    "demo": "View Platform"
+                }
+            },
+            "4": {
+                "title": "Flow Task",
+                "subtitle": "RESTful API for project and task management.",
+                "description": {
+                    "title": "Description",
+                    "text": "Flow Task is a RESTful API developed for project and task management, designed with a modular and scalable architecture that facilitates maintenance and future evolution. The solution incorporates JWT authentication, Zod-based validation, and PostgreSQL data persistence, along with Swagger documentation and automated testing."
+                },
+                "problem": {
+                    "title": "Problem",
+                    "text": "The project was created as a solution for managing projects and tasks through a structured and maintainable API, aiming to centralize operations such as user, project, and task management. The platform needed to provide authentication, request validation, and a structure that would facilitate future development and maintenance."
+                },
+                "architecture": {
+                    "title": "Architecture"
+                },
+                "functionality": {
+                    "title": "Features",
+                    "items": [
+                        "User management and authentication",
+                        "Organization and member management",
+                        "Project creation and management",
+                        "Task management and updates",
+                        "Status and priority assignment",
+                        "Comment, label, and history management",
+                        "Interactive documentation and automated testing"
+                    ]
+                },
+                "learning": {
+                    "title": "Challenges and Learnings",
+                    "items": [
+                        "Designing a modular and scalable architecture",
+                        "Implementing JWT-based authentication",
+                        "Request validation using Zod",
+                        "API documentation using Swagger",
+                        "Implementing tests with Vitest and Supertest",
+                        "Structured error and exception handling"
                     ]
                 },
                 "links": {
                     "github": "View on GitHub",
-                    "demo": "View demo"
+                    "demo": "View Documentation"
+                }
+            },
+            "5": {
+                "title": "White-Label Web Template",
+                "subtitle": "Static and adaptable web template for different types of projects.",
+                "description": {
+                    "title": "Description",
+                    "text": "White-label static web project consisting of multiple pages and developed with HTML, CSS, and JavaScript. The solution features an organized and responsive structure, reusable navigation, and light and dark theme switching, making it easy to adapt its design and content."
+                },
+                "problem": {
+                    "title": "Problem",
+                    "text": "The project was conceived as a reusable foundation for creating different websites without having to develop their main structure from scratch. The solution needed to provide a simple, responsive, and customizable interface, allowing content, styles, and components to be easily adapted according to the needs of each project."
+                },
+                "architecture": {
+                    "title": "Architecture"
+                },
+                "functionality": {
+                    "title": "Features",
+                    "items": [
+                        "Multi-page structure",
+                        "Reusable navigation between pages",
+                        "Responsive design for different devices",
+                        "Light and dark theme switching",
+                        "Organized and reusable structure",
+                        "Content and style customization",
+                        "Adaptation for different types of websites"
+                    ]
+                },
+                "learning": {
+                    "title": "Challenges and Learnings",
+                    "items": [
+                        "Strengthening knowledge of HTML, CSS, and JavaScript",
+                        "Designing a reusable web structure",
+                        "Implementing light and dark themes",
+                        "Creating an adaptable and customizable foundation"
+                    ]
+                },
+                "links": {
+                    "github": "View on GitHub",
+                    "demo": "View Website"
                 }
             }
         }
@@ -293,36 +534,43 @@
                 "title": "Proyectos Destacados",
                 "projects": [
                     {
-                        "title": "Development Team Lead",
+                        "title": "Líder de desarrollo",
                         "image": "placeholder-background.png",
-                        "description": "Liderazgo del equipo de desarrollo y construcción de soluciones web.",
+                        "description": "Lideré el desarrollo de un sistema web para la gestión y operación de parqueaderos, desde el diseño inicial hasta su desarrollo, mantenimiento y soporte.",
                         "technologies": [
                             "Angular",
-                            "Node.js",
-                            "PostgreSQL",
-                            "AWS"
+                            "Ionic",
+                            "Express.js",
+                            "MySQL",
+                            "AWS",
+                            "Ubuntu"
                         ]
                     },
                     {
-                        "title": "Full Stack Developer",
+                        "title": "Líder de desarrollo",
                         "image": "placeholder-background.png",
-                        "description": "Desarrollo de aplicaciones web y APIs utilizando tecnologías modernas.",
+                        "description": "Lideré el desarrollo de diversas soluciones tecnológicas para un cliente del sector hotelero, participando en aplicaciones móviles, PWA para empleados y una plataforma web administrativa.",
                         "technologies": [
-                            "Node.js",
-                            "Express",
+                            "Angular",
+                            "Ionic",
+                            "Android",
+                            "iOS",
+                            "Express.js",
                             "MySQL",
-                            "AWS"
+                            "AWS",
+                            "Ubuntu"
                         ]
                     },
                     {
-                        "title": "Full Stack Developer",
+                        "title": "Líder de desarrollo",
                         "image": "placeholder-background.png",
-                        "description": "Desarrollo de aplicaciones web y APIs utilizando tecnologías modernas.",
+                        "description": "Lideré el desarrollo y evolución de una plataforma web para la gestión de campañas publicitarias mediante la integración con Authorized Buyers, incorporando nuevas funcionalidades y soporte para publicidad nativa.",
                         "technologies": [
-                            "Node.js",
-                            "Express",
-                            "MySQL",
-                            "AWS"
+                            "Angular",
+                            "Flask",
+                            "MongoDB",
+                            "AWS",
+                            "Authorized Buyers"
                         ]
                     }
                 ]
@@ -339,66 +587,130 @@
             "projects": [
                 {
                     "id": 1,
-                    "title": "Development Team Lead",
+                    "title": "Líder de desarrollo",
                     "image": "placeholder-background.png",
-                    "description": "Liderazgo del equipo de desarrollo y construcción de soluciones web.",
+                    "description": "Lideré el desarrollo de un sistema web para la gestión y operación de parqueaderos, incluyendo módulos administrativos y operativos para el control de ingreso y salida de vehículos. Participé en el diseño de la base de datos, definición de funcionalidades e infraestructura inicial en AWS. Posteriormente asumí el desarrollo, mantenimiento y soporte integral del proyecto, incluyendo su migración a un servidor privado e integraciones con servicios externos como facturación electrónica e impresión de facturas mediante una app movil.",
                     "technologies": [
                         "Angular",
-                        "Node.js",
-                        "PostgreSQL",
-                        "AWS"
+                        "Ionic",
+                        "Express.js",
+                        "JWT",
+                        "MySQL",
+                        "AWS",
+                        "Ubuntu"
                     ],
-                    "startDate": "20/12/2021",
+                    "startDate": "21/12/2023",
+                    "endDate": "23/07/2026",
+                    "isPersonalProject": false,
+                    "personalProject": "Proyecto Personal",
+                    "companyProject": "Experiencia Laboral",
+                    "githubBtn": "Ver PWA",
+                    "githubUrl": "https://imsmanager-pwa.web.app/",
+                    "projectBtn": "Ver Página Administrativa",
+                    "projectUrl": "https://vcloud04.vit.com.co/",
+                    "githubIcon": "bootstrapLink",
+                    "projectIcon": "bootstrapLink"
+                },
+                {
+                    "id": 2,
+                    "title": "Líder de desarrollo",
+                    "image": "placeholder-background.png",
+                    "description": "Lideré el desarrollo de diversas soluciones tecnológicas para un cliente del sector hotelero, incluyendo una aplicación móvil para iOS y Android, PWA para empleados y una plataforma web administrativa. Participé inicialmente en el desarrollo de funcionalidades y posteriormente asumí responsabilidades en el diseño de bases de datos, infraestructura y servicios en AWS.",
+                    "technologies": [
+                        "Angular",
+                        "Ionic",
+                        "Android",
+                        "iOS",
+                        "Express.js",
+                        "MySQL",
+                        "AWS",
+                        "Ubuntu"
+                    ],
+                    "startDate": "15/03/2023",
                     "endDate": "Actualidad",
                     "isPersonalProject": false,
                     "personalProject": "Proyecto Personal",
                     "companyProject": "Experiencia Laboral",
-                    "githubBtn": "Repositorio",
-                    "githubUrl": "https://www.google.com/",
-                    "projectBtn": "Ver Proyecto",
-                    "projectUrl": "https://www.google.com/"
-                },
-                {
-                    "id": 2,
-                    "title": "Full Stack Developer",
-                    "image": "placeholder-background.png",
-                    "description": "Desarrollo de aplicaciones web y APIs utilizando tecnologías modernas.",
-                    "technologies": [
-                        "Node.js",
-                        "Express",
-                        "MySQL",
-                        "AWS"
-                    ],
-                    "startDate": "20/12/2021",
-                    "endDate": "25/06/2025",
-                    "isPersonalProject": false,
-                    "personalProject": "Proyecto Personal",
-                    "companyProject": "Experiencia Laboral",
-                    "githubBtn": "Repositorio",
-                    "githubUrl": "https://www.google.com/",
-                    "projectBtn": "Ver Proyecto",
-                    "projectUrl": "https://www.google.com/"
+                    "githubBtn": "Ver Aplicación",
+                    "githubUrl": "URL",
+                    "projectBtn": "Ver Plataforma",
+                    "projectUrl": "URL",
+                    "githubIcon": "bootstrapLink",
+                    "projectIcon": "bootstrapLink"
                 },
                 {
                     "id": 3,
-                    "title": "Full Stack Developer",
+                    "title": "Líder de desarrollo",
                     "image": "placeholder-background.png",
-                    "description": "Desarrollo de aplicaciones web y APIs utilizando tecnologías modernas.",
+                    "description": "Lideré el desarrollo y evolución de una plataforma web para la creación y gestión de campañas publicitarias mediante la integración con Authorized Buyers. Inicialmente brindé soporte y mantenimiento a la solución existente y posteriormente asumí el desarrollo de nuevas funcionalidades, incluyendo la implementación de campañas de publicidad nativa.",
                     "technologies": [
+                        "Angular",
+                        "Flask",
                         "Node.js",
-                        "Express",
-                        "MySQL",
-                        "AWS"
+                        "MongoDB",
+                        "AWS",
+                        "Authorized Buyers"
                     ],
-                    "startDate": "20/12/2021",
-                    "endDate": "25/06/2025",
+                    "startDate": "20/01/2026",
+                    "endDate": "Actualidad",
                     "isPersonalProject": false,
                     "personalProject": "Proyecto Personal",
                     "companyProject": "Experiencia Laboral",
-                    "githubBtn": "Repositorio",
-                    "githubUrl": "https://www.google.com/",
-                    "projectBtn": "Ver Proyecto",
-                    "projectUrl": "https://www.google.com/"
+                    "githubBtn": "Ver Plataforma",
+                    "githubUrl": "https://clic-ads.com.co",
+                    "projectBtn": "Ver Plataforma",
+                    "projectUrl": "https://clic-ads.com.co",
+                    "githubIcon": "bootstrapLink",
+                    "projectIcon": "bootstrapLink"
+                },
+                {
+                    "id": 4,
+                    "title": "Flow Task",
+                    "image": "placeholder-background.png",
+                    "description": "Desarrollé una API RESTful para la gestión de proyectos y tareas, diseñada bajo una arquitectura modular y escalable. La solución incorpora autenticación JWT, operaciones CRUD, validación mediante Zod y persistencia en PostgreSQL. Además, cuenta con documentación interactiva mediante Swagger y pruebas automatizadas con Vitest y Supertest.",
+                    "technologies": [
+                        "Node.js",
+                        "Express.js",
+                        "PostgreSQL",
+                        "JWT",
+                        "Zod",
+                        "Swagger",
+                        "Vitest",
+                        "Supertest"
+                    ],
+                    "startDate": "16/03/2026",
+                    "endDate": "04/05/2026",
+                    "isPersonalProject": true,
+                    "personalProject": "Proyecto Personal",
+                    "companyProject": "Experiencia Laboral",
+                    "githubBtn": "Ver GitHub",
+                    "githubUrl": "https://github.com/AlexisPA01/flow-task",
+                    "projectBtn": "Ver Documentación",
+                    "projectUrl": "https://flow-task.alexis-patino.xyz/docs/",
+                    "githubIcon": "bootstrapGithub",
+                    "projectIcon": "bootstrapLink"
+                },
+                {
+                    "id": 5,
+                    "title": "Plantilla web marca blanca",
+                    "image": "placeholder-background.png",
+                    "description": "Desarrollé un proyecto web estático tipo marca blanca, compuesto por múltiples páginas y construido con HTML, CSS y JavaScript. La solución incorpora navegación reutilizable, cambio entre temas claro y oscuro y una estructura organizada, responsive y fácilmente adaptable para diferentes tipos de sitios web.",
+                    "technologies": [
+                        "HTML",
+                        "CSS",
+                        "JavaScript"
+                    ],
+                    "startDate": "04/03/2026",
+                    "endDate": "14/04/2026",
+                    "isPersonalProject": true,
+                    "personalProject": "Proyecto Personal",
+                    "companyProject": "Experiencia Laboral",
+                    "githubBtn": "Ver GitHub",
+                    "githubUrl": "https://github.com/AlexisPA01/simple-web-layout",
+                    "projectBtn": "Ver Página",
+                    "projectUrl": "https://simple-web-layout.alexis-patino.xyz/",
+                    "githubIcon": "bootstrapGithub",
+                    "projectIcon": "bootstrapLink"
                 }
             ]
         },
@@ -425,15 +737,15 @@
             "link": "Enlaces",
             "error": "Proyecto no encontrado",
             "1": {
-                "title": "Flow Task",
-                "subtitle": "API para gestión de proyectos y tareas estilo Jira.",
+                "title": "IMS Manager",
+                "subtitle": "Sistema web para la gestión y operación de parqueaderos.",
                 "description": {
                     "title": "Descripción",
-                    "text": "Flow Task es una API RESTful que permite gestionar proyectos, tareas, usuarios y roles. Incluye autenticación JWT, documentación con Swagger y tests automatizados."
+                    "text": "Sistema web para la gestión y operación de parqueaderos, compuesto por un módulo administrativo para el control y gestión del servicio y un módulo operativo para registrar el ingreso y salida de vehículos. Participé en el desarrollo integral de la plataforma desde sus primeras etapas."
                 },
                 "problem": {
                     "title": "Problema",
-                    "text": "Muchas herramientas de gestión de proyectos son complejas o costosas. Flow Task nace como una solución ligera, escalable y fácil de usar para equipos de desarrollo."
+                    "text": "El cliente necesitaba centralizar la administración y operación de los parqueaderos en una plataforma que permitiera supervisar de manera eficiente el ingreso y salida de vehículos, facilitar la gestión administrativa del servicio y optimizar la operación. Además, la plataforma debía permitir a los operadores gestionar el ingreso y salida de vehículos en cada una de las zonas que conforman los diferentes parqueaderos y poder imprimir su respectiva factura de cobro."
                 },
                 "architecture": {
                     "title": "Arquitectura"
@@ -441,28 +753,198 @@
                 "functionality": {
                     "title": "Funcionalidades",
                     "items": [
-                        "Autenticación y autorización con JWT",
-                        "Gestión de usuarios y roles",
-                        "CRUD de proyectos y tareas",
-                        "Asignación de tareas a usuarios",
-                        "Filtros, búsqueda y paginación",
-                        "Documentación con Swagger",
-                        "Tests unitarios y de integración"
+                        "Gestión administrativa del parqueadero",
+                        "Registro y control de ingreso y salida de vehículos",
+                        "Gestión de usuarios y permisos",
+                        "Control de operaciones del parqueadero",
+                        "Integración con servicios de facturación electrónica",
+                        "Gestión y consulta de información operativa",
+                        "Soporte y mantenimiento de la plataforma"
                     ]
                 },
                 "learning": {
                     "title": "Retos y aprendizajes",
                     "items": [
-                        "Diseño de arquitectura escalable",
-                        "Relaciones en PostgreSQL",
-                        "Validaciones robustas con Zod",
-                        "Testing y cobertura de código",
-                        "Despliegue en AWS con Docker"
+                        "Diseño y modelado de la base de datos",
+                        "Desarrollo integral de una aplicación web",
+                        "Configuración de infraestructura en AWS",
+                        "Migración de la plataforma a un servidor privado",
+                        "Integración con servicios externos",
+                        "Facturación electrónica e integración de terceros",
+                        "Mantenimiento y soporte de una aplicación en producción"
                     ]
                 },
                 "links": {
-                    "github": "Ver en GitHub",
-                    "demo": "Ver demo"
+                    "github": "Ver Página Administrativa",
+                    "demo": "Ver PWA"
+                }
+            },
+            "2": {
+                "title": "Soluciones tecnológicas para hoteles",
+                "subtitle": "Plataforma tecnológica integral para la gestión de servicios hoteleros.",
+                "description": {
+                    "title": "Descripción",
+                    "text": "Proyecto orientado al desarrollo de diversas soluciones tecnológicas para un cliente del sector hotelero, compuesto por una aplicación móvil para iOS y Android, PWA específicas para empleados y una plataforma web administrativa. Participé en el desarrollo de funcionalidades y posteriormente asumí responsabilidades sobre bases de datos e infraestructura."
+                },
+                "problem": {
+                    "title": "Problema",
+                    "text": "El cliente necesitaba diferentes soluciones tecnológicas para gestionar y ofrecer sus servicios hoteleros, atendiendo tanto a los huéspedes como a los empleados y al personal administrativo. Las plataformas debían cubrir la visualización y reserva de hoteles y servicios, el seguimiento de operaciones internas y la administración general."
+                },
+                "architecture": {
+                    "title": "Arquitectura"
+                },
+                "functionality": {
+                    "title": "Funcionalidades",
+                    "items": [
+                        "Visualización de hoteles y servicios",
+                        "Reserva de hoteles y servicios",
+                        "Aplicación móvil para iOS y Android con Ionic",
+                        "PWA para empleados y operaciones",
+                        "Plataforma web administrativa",
+                        "Gestión de información y servicios hoteleros",
+                        "Soporte y mantenimiento de las soluciones"
+                    ]
+                },
+                "learning": {
+                    "title": "Retos y aprendizajes",
+                    "items": [
+                        "Desarrollo de soluciones multiplataforma",
+                        "Diseño y modelado de bases de datos",
+                        "Configuración de infraestructura en AWS",
+                        "Administración de servicios en la nube",
+                        "Desarrollo de aplicaciones para diferentes usuarios",
+                        "Integración de diferentes soluciones tecnológicas",
+                        "Mantenimiento y soporte de plataformas en producción"
+                    ]
+                },
+                "links": {
+                    "github": "Ver Aplicación",
+                    "demo": "Ver Plataforma"
+                }
+            },
+            "3": {
+                "title": "Plataforma de publicidad digital",
+                "subtitle": "Plataforma web para la gestión de campañas publicitarias mediante Authorized Buyers.",
+                "description": {
+                    "title": "Descripción",
+                    "text": "Plataforma web orientada a la creación y gestión de campañas publicitarias mediante la integración con Authorized Buyers. Inicialmente participé en el soporte y mantenimiento de una solución existente, y posteriormente asumí el desarrollo de nuevas funcionalidades y mejoras para ampliar sus capacidades."
+                },
+                "problem": {
+                    "title": "Problema",
+                    "text": "La plataforma necesitaba evolucionar para ampliar las capacidades de gestión de campañas publicitarias y permitir nuevos formatos de anuncios. La solución existente estaba limitada a campañas de tipo Display, por lo que era necesario incorporar soporte para publicidad nativa sin afectar el funcionamiento de las funcionalidades existentes."
+                },
+                "architecture": {
+                    "title": "Arquitectura"
+                },
+                "functionality": {
+                    "title": "Funcionalidades",
+                    "items": [
+                        "Creación y gestión de campañas publicitarias",
+                        "Integración con Authorized Buyers",
+                        "Gestión de campañas de publicidad Display",
+                        "Implementación de campañas de publicidad Native",
+                        "Gestión y configuración de anuncios",
+                        "Soporte y mantenimiento de la plataforma",
+                        "Desarrollo y mejora de nuevas funcionalidades"
+                    ]
+                },
+                "learning": {
+                    "title": "Retos y aprendizajes",
+                    "items": [
+                        "Mantenimiento de una plataforma en producción",
+                        "Aprendizaje de nuevos lenguajes como Python",
+                        "Integración con Authorized Buyers",
+                        "Desarrollo de funcionalidades sobre una solución existente",
+                        "Implementación de publicidad nativa",
+                        "Desarrollo y evolución de una plataforma publicitaria",
+                        "Soporte y mantenimiento de aplicaciones existentes"
+                    ]
+                },
+                "links": {
+                    "github": "Ver Plataforma",
+                    "demo": "Ver Campañas"
+                }
+            },
+            "4": {
+                "title": "Flow Task",
+                "subtitle": "API RESTful para la gestión de proyectos y tareas.",
+                "description": {
+                    "title": "Descripción",
+                    "text": "Flow Task es una API RESTful desarrollada para la gestión de proyectos y tareas, diseñada bajo una arquitectura modular y escalable que facilita su mantenimiento y evolución. La solución incorpora autenticación JWT, validación mediante Zod y persistencia de datos en PostgreSQL, además de documentación Swagger y pruebas automatizadas."
+                },
+                "problem": {
+                    "title": "Problema",
+                    "text": "El proyecto surge como una solución para gestionar proyectos y tareas mediante una API estructurada y mantenible, buscando centralizar operaciones como la administración de usuarios, proyectos y tareas. La plataforma debía contar con autenticación, validación de solicitudes y una estructura que facilitara su evolución y mantenimiento."
+                },
+                "architecture": {
+                    "title": "Arquitectura"
+                },
+                "functionality": {
+                    "title": "Funcionalidades",
+                    "items": [
+                        "Gestión de usuarios y autenticación",
+                        "Gestión de organizaciones y miembros",
+                        "Creación y administración de proyectos",
+                        "Gestión y actualización de tareas",
+                        "Asignación de estados y prioridades",
+                        "Gestión de comentarios, etiquetas e historial",
+                        "Documentación interactiva y pruebas automatizadas"
+                    ]
+                },
+                "learning": {
+                    "title": "Retos y aprendizajes",
+                    "items": [
+                        "Diseño de una arquitectura modular y escalable",
+                        "Implementación de autenticación mediante JWT",
+                        "Validación de solicitudes mediante Zod",
+                        "Documentación de APIs mediante Swagger",
+                        "Implementación de pruebas con Vitest y Supertest",
+                        "Manejo estructurado de errores y excepciones"
+                    ]
+                },
+                "links": {
+                    "github": "Ver GitHub",
+                    "demo": "Ver Documentación"
+                }
+            },
+            "5": {
+                "title": "Plantilla web marca blanca",
+                "subtitle": "Plantilla web estática y adaptable para diferentes tipos de proyectos.",
+                "description": {
+                    "title": "Descripción",
+                    "text": "Proyecto web estático tipo marca blanca, compuesto por múltiples páginas y desarrollado con HTML, CSS y JavaScript. La solución cuenta con una estructura organizada y responsive, navegación reutilizable y cambio entre temas claro y oscuro, permitiendo adaptar fácilmente su diseño y contenido."
+                },
+                "problem": {
+                    "title": "Problema",
+                    "text": "El proyecto fue planteado como una base reutilizable para crear diferentes sitios web sin tener que desarrollar desde cero su estructura principal. La solución debía ofrecer una interfaz sencilla, responsive y personalizable, permitiendo adaptar fácilmente el contenido, estilos y componentes según las necesidades de cada proyecto."
+                },
+                "architecture": {
+                    "title": "Arquitectura"
+                },
+                "functionality": {
+                    "title": "Funcionalidades",
+                    "items": [
+                        "Estructura de múltiples páginas",
+                        "Navegación reutilizable entre páginas",
+                        "Diseño responsive para diferentes dispositivos",
+                        "Cambio entre tema claro y oscuro",
+                        "Estructura organizada y reutilizable",
+                        "Personalización de contenido y estilos",
+                        "Adaptación para diferentes tipos de sitios web"
+                    ]
+                },
+                "learning": {
+                    "title": "Retos y aprendizajes",
+                    "items": [
+                        "Afianzar conocimientos con HTML, CSS y JavaScript",
+                        "Diseño de una estructura web reutilizable",
+                        "Implementación de temas claro y oscuro",
+                        "Creación de una base adaptable y personalizable"
+                    ]
+                },
+                "links": {
+                    "github": "Ver GitHub",
+                    "demo": "Ver Página"
                 }
             }
         }

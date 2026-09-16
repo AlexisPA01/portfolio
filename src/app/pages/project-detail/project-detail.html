@@ -21,7 +21,7 @@
             <div class="project-detail__technologies">
 
                 @for (
-                technology of text?.technologies;
+                technology of project.technologies;
                 track technology
                 ) {
 
@@ -37,7 +37,12 @@
 
         <div class="project-detail__hero-image-wrapper">
 
-            <img [src]="text?.image" [alt]="text?.title" class="project-detail__hero-image">
+            <img [src]="project.image" (click)="openModal(project.image)" [alt]="text?.title"
+                class="project-detail__hero-image">
+            @if (project.image2) {
+            <img [src]="project.image2" (click)="openModal(project.image2)" [alt]="text?.title"
+                class="project-detail__hero-image">
+            }
 
         </div>
 
@@ -78,7 +83,7 @@
 
         <div class="project-detail__architecture-wrapper">
 
-            <img [src]="text?.architectureImage" [alt]="text?.architecture.title"
+            <img [src]="project.architectureImage" [alt]="text?.architecture.title"
                 class="project-detail__architecture-image">
 
         </div>
@@ -152,13 +157,12 @@
 
         <div class="project-detail__buttons">
 
-            <a [href]="text?.github" target="_blank" rel="noopener noreferrer"
+            <a [href]="project.githubUrl" target="_blank" rel="noopener noreferrer"
                 class="project-detail__button project-detail__button--secondary">
-                <span>GitHub</span>
                 {{ text?.links.github }}
             </a>
 
-            <a [href]="text?.demo" target="_blank" rel="noopener noreferrer"
+            <a [href]="project.demoUrl" target="_blank" rel="noopener noreferrer"
                 class="project-detail__button project-detail__button--primary">
                 {{ text?.links.demo }}
             </a>
@@ -186,3 +190,11 @@
     }
 
 </section>
+
+@if (isModalOpen()) {
+<div class="modal-overlay" (click)="isModalOpen.set(false)">
+    <div class="modal-content" (click)="$event.stopPropagation()">
+        <img [src]="imgModal" alt="modal-image">
+    </div>
+</div>
+}

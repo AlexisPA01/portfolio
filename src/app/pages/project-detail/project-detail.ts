@@ -1,19 +1,8 @@
-import {
-  Component,
-  computed,
-  inject,
-  OnInit,
-  signal
-} from '@angular/core';
-
-import {
-  ActivatedRoute,
-  RouterLink
-} from '@angular/router';
+import { Component, inject, signal } from '@angular/core';
+import { ActivatedRoute, RouterLink } from '@angular/router';
 
 import { TranslateService } from '../../shared/services/translate';
 import { PROJECTS } from '../../shared/data/projects.data';
-
 
 @Component({
   selector: 'app-project-detail',
@@ -25,6 +14,8 @@ export class ProjectDetail {
   constructor(public translation: TranslateService) { }
   private readonly route = inject(ActivatedRoute);
   readonly projectId = signal<string | null>(null);
+  isModalOpen = signal(false);
+  imgModal = "";
 
   ngOnInit(): void {
     this.route.paramMap.subscribe(params => {
@@ -59,5 +50,10 @@ export class ProjectDetail {
     }
 
     return PROJECTS.find(project => project.id === id) ?? null;
+  }
+
+  openModal(imgSrc: string) {
+    this.isModalOpen.set(true);
+    this.imgModal = imgSrc;
   }
 }

@@ -91,8 +91,8 @@ export class Skills {
           icon: 'diAmazonwebservicesOriginalWordmark'
         },
         {
-          name: 'Nginx',
-          icon: 'diNginxOriginal'
+          name: 'Ubuntu',
+          icon: 'diUbuntuOriginal'
         }
       ]
     }

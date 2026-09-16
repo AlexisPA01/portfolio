@@ -42,12 +42,12 @@
         <div class="project-item__actions">
             @if (project.githubUrl) {
             <a [href]="project.githubUrl" target="_blank" class="project-item__actions-item" aria-label="GitHub">
-                {{ project.githubBtn }} <ng-icon name="bootstrapGithub"></ng-icon>
+                {{ project.githubBtn }} <ng-icon [name]="project.githubIcon"></ng-icon>
             </a>
             }
             @if (project.projectUrl) {
             <a [href]="project.projectUrl" target="_blank" class="project-item__actions-item" aria-label="GitHub">
-                {{ project.projectBtn }} <ng-icon name="bootstrapLink"></ng-icon>
+                {{ project.projectBtn }} <ng-icon [name]="project.projectIcon"></ng-icon>
             </a>
             }
         </div>

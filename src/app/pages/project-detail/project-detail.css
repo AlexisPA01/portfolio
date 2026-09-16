@@ -86,17 +86,22 @@
 
 .project-detail__hero-image-wrapper {
     overflow: hidden;
-    border: 1px solid var(--color-border);
-    border-radius: 8px;
-    background: var(--color-bg-secondary);
-    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 8px;
 }
 
 .project-detail__hero-image {
     display: block;
     width: 100%;
     height: auto;
-    object-fit: cover;
+    border: 2px solid var(--color-primary);
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.project-detail__hero-image-wrapper:has(.project-detail__hero-image:nth-child(2)) {
+    grid-template-columns: 1fr 1fr;
 }
 
 .project-detail__section {
@@ -196,13 +201,11 @@
     margin-top: 10px;
 }
 
-
 .project-detail__buttons {
     display: flex;
     flex-wrap: wrap;
     gap: 12px;
 }
-
 
 .project-detail__button {
     display: inline-flex;
@@ -220,18 +223,15 @@
         opacity 0.2s ease;
 }
 
-
 .project-detail__button:hover {
     transform: translateY(-2px);
     opacity: 0.9;
 }
 
-
 .project-detail__button--secondary {
     background-color: var(--color-primary);
     border: 1px solid var(--color-border);
 }
-
 
 .project-detail__button--primary {
     background-color: var(--color-bg-secondary);
@@ -247,16 +247,38 @@
     text-align: center;
 }
 
-
 .project-detail__not-found h1 {
     margin-bottom: 20px;
 }
-
 
 .project-detail__not-found a {
     text-decoration: none;
 }
 
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background: var(--color-border);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+}
+
+.modal-content>img {
+    width: 100%;
+    height: auto;
+}
 
 @media (max-width: 800px) {
 
@@ -280,6 +302,10 @@
 
     .project-detail__hero-image-wrapper {
         max-width: 500px;
+    }
+
+    .project-detail__hero-image-wrapper:has(.project-detail__hero-image:nth-child(2)) {
+        grid-template-columns: 1fr;
     }
 
     .project-detail__characteristics {
@@ -307,24 +333,29 @@
         font-size: 32px;
     }
 
-
     .project-detail__subtitle {
         font-size: 13px;
     }
-
 
     .project-detail__section-text {
         font-size: 13px;
     }
 
-
     .project-detail__buttons {
         flex-direction: column;
     }
-
 
     .project-detail__button {
         width: 100%;
     }
 
+    .modal-content {
+        padding: 0;
+        width: 100%;
+    }
+
+    .modal-content>img {
+        width: 100%;
+        height: auto;
+    }
 }

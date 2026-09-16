@@ -15,7 +15,7 @@ import {
   diMysqlOriginal,
   diMongodbOriginal,
   diAmazonwebservicesOriginalWordmark,
-  diNginxOriginal
+  diUbuntuOriginal
 } from '@ng-icons/devicon/original';
 
 export interface SkillCategoryData {
@@ -54,7 +54,7 @@ interface SkillData {
       diMysqlOriginal,
       diMongodbOriginal,
       diAmazonwebservicesOriginalWordmark,
-      diNginxOriginal
+      diUbuntuOriginal
     })
   ],
 })
