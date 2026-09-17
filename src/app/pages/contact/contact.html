@@ -12,22 +12,22 @@
 
     <div class="contact__body">
         <div class="contact__form contact__container">
-            <form class="contact__form-content" action="">
+            <form class="contact__form-content" [formGroup]="contactForm" (ngSubmit)="sendEmail()">
                 <div class="contact__form-field">
                     <label for="name">{{text.formName}}</label>
-                    <input type="text" name="name" id="name">
+                    <input type="text" id="name" formControlName="name">
                 </div>
                 <div class="contact__form-field">
                     <label for="email">{{text.formEmail}}</label>
-                    <input type="email" name="email" id="email">
+                    <input type="email" id="email" formControlName="email">
                 </div>
                 <div class="contact__form-field">
                     <label for="subject">{{text.formSubject}}</label>
-                    <input type="text" name="subject" id="subject">
+                    <input type="text" id="subject" formControlName="subject">
                 </div>
                 <div class="contact__form-field">
                     <label for="message">{{text.formMessage}}</label>
-                    <textarea name="message" id="message" rows="6"></textarea>
+                    <textarea id="message" rows="6" formControlName="message"></textarea>
                 </div>
                 <button class="contact__form-button" type="submit">
                     {{text.formBtn}}
@@ -98,7 +98,7 @@
                 <p class="contact__cv-description">
                     {{text.downloadDescription}}
                 </p>
-                <a href="" class="contact__cv-download">
+                <a href="" class="contact__cv-download" (click)="cv.downloadCV()">
                     <ng-icon name="bootstrapHandThumbsUp" class="contact__info-icon"></ng-icon>
                     {{text.downloadBtn}}
                     <ng-icon name="bootstrapDownload" class="contact__info-icon"></ng-icon>

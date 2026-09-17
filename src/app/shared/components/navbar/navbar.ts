@@ -1,9 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, signal } from '@angular/core';
 import { LanguageService } from '../../services/language';
-import {
-  RouterLink,
-  RouterLinkActive
-} from '@angular/router';
+import { RouterLink, RouterLinkActive } from '@angular/router';
 
 @Component({
   selector: 'app-navbar',
@@ -15,7 +12,15 @@ import {
   styleUrl: './navbar.css',
 })
 export class Navbar {
-  constructor(public language: LanguageService) {
+  constructor(public language: LanguageService) { }
 
+  isMenuOpen = signal(false);
+
+  toggleMenu(): void {
+    this.isMenuOpen.update(isOpen => !isOpen);
+  }
+
+  closeMenu(): void {
+    this.isMenuOpen.set(false);
   }
 }
