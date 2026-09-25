@@ -258,7 +258,20 @@
             "informationLocation": "Remote / Hybrid | In-person (Medellín)",
             "downloadTitle": "Download Resume",
             "downloadDescription": "Learn more about my experience and professional background.",
-            "downloadBtn": "Download Resume"
+            "downloadBtn": "Download Resume",
+            "alertWarning": {
+                "title": "Invalid form",
+                "text": "Please correct the highlighted fields before submitting."
+            },
+            "alertSuccess": {
+                "title": "Message sent!",
+                "text": "Thank you for contacting me. I will get back to you soon."
+            },
+            "alertError": {
+                "title": "Error sending message",
+                "text": "The message could not be sent. Please try again."
+            },
+            "alertWait": "Sending message..."
         },
         "projectDetail": {
             "back": "Back to projects",
@@ -736,7 +749,20 @@
             "informationLocation": "Remoto / Híbrido | Presencial (Medellín)",
             "downloadTitle": "Descargar CV",
             "downloadDescription": "Conoce más sobre mi experiencia y trayectoria profesional.",
-            "downloadBtn": "Descargar CV"
+            "downloadBtn": "Descargar CV",
+            "alertWarning": {
+                "title": "Formulario inválido",
+                "text": "Por favor corrige los campos marcados antes de enviar."
+            },
+            "alertSuccess": {
+                "title": "¡Mensaje enviado!",
+                "text": "Gracias por contactarme. Te responderé pronto."
+            },
+            "alertError": {
+                "title": "Error al enviar",
+                "text": "No fue posible enviar el mensaje. Inténtalo nuevamente."
+            },
+            "alertWait": "Enviando mensaje..."
         },
         "projectDetail": {
             "back": "Volver a proyectos",

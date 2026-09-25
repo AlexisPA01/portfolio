@@ -1,59 +1,256 @@
-# Portfolio
+# Alexis Patiño Agudelo - Portfolio
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.20.
+![Angular](https://img.shields.io/badge/Angular-Frontend-red)
+![TypeScript](https://img.shields.io/badge/TypeScript-Language-blue)
+![Ionic](https://img.shields.io/badge/Ionic-Mobile-3880FF)
+![Node.js](https://img.shields.io/badge/Node.js-Backend-green)
+![AWS](https://img.shields.io/badge/AWS-Cloud-orange)
 
-## Development server
+Personal portfolio website developed with Angular, showcasing my professional experience, technical skills, and software projects. The platform serves as a central hub for recruiters, clients, and developers to explore my work and contact me.
 
-To start a local development server, run:
+---
+
+## Overview
+
+This portfolio highlights my experience as a Full Stack Developer, including web applications, RESTful APIs, mobile applications, cloud infrastructure, and enterprise software solutions.
+
+The website includes detailed project presentations, professional experience, technical skills, downloadable resumes, and a contact form for direct communication.
+
+---
+
+## Features
+
+- Responsive modern design
+- Multi-language support (English / Spanish)
+- Project showcase with detailed information
+- Professional experience timeline
+- Technical skills section
+- Resume download
+- Contact form integration
+- Mobile-friendly interface
+- SEO-friendly structure
+
+---
+
+## Technologies
+
+### Frontend
+
+- Angular 22
+- TypeScript
+- HTML5
+- CSS3
+
+### UI & Libraries
+
+- ng-icons
+- Bootstrap Icons
+- SweetAlert2
+- RxJS
+
+### Development Tools
+
+- Angular CLI
+- Vitest
+- Prettier
+
+---
+
+## Featured Projects
+
+### IMS Manager
+
+Parking management and operations platform with administrative and operational modules for vehicle entry, exit, monitoring, invoicing, and reporting.
+
+**Technologies:**
+
+- Angular
+- Ionic
+- Express.js
+- MySQL
+- JWT
+- AWS
+- Ubuntu
+
+---
+
+### EmHotels
+
+Technology ecosystem for the hospitality industry including mobile applications, employee PWAs, and an administrative platform.
+
+**Technologies:**
+
+- Angular
+- Ionic
+- Android
+- iOS
+- Express.js
+- MySQL
+- AWS
+
+---
+
+### Clic-Ads
+
+Advertising campaign management platform integrated with Google Authorized Buyers for programmatic advertising.
+
+**Technologies:**
+
+- Angular
+- Flask
+- Node.js
+- MongoDB
+- AWS
+- Authorized Buyers
+
+---
+
+### Flow Task
+
+RESTful API for task and project management featuring JWT authentication, PostgreSQL persistence, Swagger documentation, and automated testing.
+
+**Technologies:**
+
+- Node.js
+- Express.js
+- PostgreSQL
+- JWT
+- Zod
+- Swagger
+- Vitest
+- Supertest
+
+---
+
+### White-Label Web Template
+
+Reusable static website template with responsive design, dark/light themes, and modular structure.
+
+**Technologies:**
+
+- HTML
+- CSS
+- JavaScript
+
+---
+
+## Requirements
+
+- Node.js 24.19+
+- npm
+
+---
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/AlexisPA01/portfolio.git
+
+cd portfolio
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+---
+
+## Development
+
+Run the development server:
+
+```bash
+npm start
+```
+
+or
 
 ```bash
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+The application will be available at:
 
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
+```text
+http://localhost:4200
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+---
+
+## Build
+
+Generate a production build:
 
 ```bash
-ng generate --help
+npm run build
 ```
 
-## Building
+Build artifacts will be generated in:
 
-To build the project run:
-
-```bash
-ng build
+```text
+dist/
 ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+---
 
-## Running unit tests
+## Project Structure
 
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
+```text
+portfolio/
 
-```bash
-ng test
+├── public/
+│   ├── cv/
+│   ├── projects/
+│   ├── favicon-new.ico
+│   └── navbar-logo.png
+│
+├── src/
+│   ├── app/
+│   │   ├── pages/
+│   │   ├── shared/
+│   │   ├── app.routes.ts
+│   │   └── app.config.ts
+│   │
+│   └── assets/
+│       └── language.json
+│
+├── angular.json
+├── package.json
+├── package-lock.json
+└── README.md
 ```
 
-## Running end-to-end tests
+---
 
-For end-to-end (e2e) testing, run:
+## Resume
 
-```bash
-ng e2e
-```
+The portfolio includes downloadable resumes in both English and Spanish:
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+- English Resume
+- Spanish Resume
 
-## Additional Resources
+---
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## Contact
+
+Feel free to reach out through the contact form available on the website.
+
+### Links
+
+- Portfolio: https://alexis-patino.xyz
+- LinkedIn: https://www.linkedin.com/in/alexis-patino-agudelo
+- GitHub: https://github.com/AlexisPA01
+
+---
+
+## Author
+
+**Alexis Patiño Agudelo**
+
+Full Stack Developer
+
+---

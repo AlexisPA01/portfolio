@@ -46,15 +46,15 @@ export class Contact {
 
       Swal.fire({
         icon: 'warning',
-        title: 'Formulario inválido',
-        text: 'Por favor corrige los campos marcados antes de enviar.'
+        title: this.text.alertWarning.title,
+        text: this.text.alertWarning.text
       });
 
       return;
     }
 
     Swal.fire({
-      title: 'Enviando mensaje...',
+      title: this.text.alertWait,
       allowOutsideClick: false,
       didOpen: () => {
         Swal.showLoading();
@@ -66,8 +66,8 @@ export class Contact {
         next: (response) => {
           Swal.fire({
             icon: 'success',
-            title: '¡Mensaje enviado!',
-            text: 'Gracias por contactarme. Te responderé pronto.'
+            title: this.text.alertSuccess.title,
+            text: this.text.alertSuccess.text
           });
 
           this.contactForm.reset();
@@ -76,8 +76,8 @@ export class Contact {
         error: (error) => {
           Swal.fire({
             icon: 'error',
-            title: 'Error al enviar',
-            text: 'No fue posible enviar el mensaje. Inténtalo nuevamente.'
+            title: this.text.alertError.title,
+            text: this.text.alertError.text
           });
 
           console.error('Error enviando el correo:', error);
