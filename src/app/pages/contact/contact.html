@@ -14,27 +14,108 @@
         <div class="contact__form contact__container">
             <form class="contact__form-content" [formGroup]="contactForm" (ngSubmit)="sendEmail()">
                 <div class="contact__form-field">
-                    <label for="name">{{text.formName}}</label>
-                    <input type="text" id="name" formControlName="name">
+                    <label for="name">{{ text.formName }}</label>
+                    <input type="text" id="name" formControlName="name" max="101">
+
+                    @if (contactForm.get('name')?.touched) {
+                    @if (contactForm.get('name')?.errors?.['required']) {
+                    <small class="error">El nombre es obligatorio.</small>
+                    }
+
+                    @if (contactForm.get('name')?.errors?.['minlength']) {
+                    <small class="error">
+                        El nombre debe tener al menos 4 caracteres.
+                    </small>
+                    }
+
+                    @if (contactForm.get('name')?.errors?.['maxlength']) {
+                    <small class="error">
+                        El nombre no puede superar los 100 caracteres.
+                    </small>
+                    }
+                    }
                 </div>
+
                 <div class="contact__form-field">
-                    <label for="email">{{text.formEmail}}</label>
-                    <input type="email" id="email" formControlName="email">
+                    <label for="email">{{ text.formEmail }}</label>
+                    <input type="email" id="email" formControlName="email" max="101">
+
+                    @if (contactForm.get('email')?.touched) {
+
+                    @if (contactForm.get('email')?.errors?.['required']) {
+                    <small class="error">El correo es obligatorio.</small>
+                    }
+
+                    @if (contactForm.get('email')?.errors?.['email']) {
+                    <small class="error">
+                        Ingresa un correo válido.
+                    </small>
+                    }
+
+                    @if (contactForm.get('email')?.errors?.['maxlength']) {
+                    <small class="error">
+                        El correo no puede superar los 100 caracteres.
+                    </small>
+                    }
+
+                    }
                 </div>
+
                 <div class="contact__form-field">
-                    <label for="subject">{{text.formSubject}}</label>
-                    <input type="text" id="subject" formControlName="subject">
+                    <label for="subject">{{ text.formSubject }}</label>
+                    <input type="text" id="subject" formControlName="subject" max="201">
+
+                    @if (contactForm.get('subject')?.touched) {
+
+                    @if (contactForm.get('subject')?.errors?.['required']) {
+                    <small class="error">El asunto es obligatorio.</small>
+                    }
+
+                    @if (contactForm.get('subject')?.errors?.['minlength']) {
+                    <small class="error">
+                        El asunto debe tener al menos 4 caracteres.
+                    </small>
+                    }
+
+                    @if (contactForm.get('subject')?.errors?.['maxlength']) {
+                    <small class="error">
+                        El asunto no puede superar los 200 caracteres.
+                    </small>
+                    }
+
+                    }
                 </div>
+
                 <div class="contact__form-field">
-                    <label for="message">{{text.formMessage}}</label>
-                    <textarea id="message" rows="6" formControlName="message"></textarea>
+                    <label for="message">{{ text.formMessage }}</label>
+                    <textarea id="message" rows="6" formControlName="message" maxlength="5001"></textarea>
+
+                    @if (contactForm.get('message')?.touched) {
+
+                    @if (contactForm.get('message')?.errors?.['required']) {
+                    <small class="error">El mensaje es obligatorio.</small>
+                    }
+
+                    @if (contactForm.get('message')?.errors?.['minlength']) {
+                    <small class="error">
+                        El mensaje debe tener al menos 4 caracteres.
+                    </small>
+                    }
+
+                    @if (contactForm.get('message')?.errors?.['maxlength']) {
+                    <small class="error">
+                        El mensaje no puede superar los 5000 caracteres.
+                    </small>
+                    }
+
+                    }
                 </div>
+
                 <button class="contact__form-button" type="submit">
-                    {{text.formBtn}}
+                    {{ text.formBtn }}
                 </button>
             </form>
         </div>
-
         <aside class="contact__sidebar">
             <div class="contact__info contact__container">
                 <h2 class="contact__info-title">

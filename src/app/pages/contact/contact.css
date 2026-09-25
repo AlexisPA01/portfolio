@@ -199,6 +199,13 @@
     border: 2px solid var(--color-border);
 }
 
+.error {
+    display: block;
+    margin-top: 4px;
+    color: #dc2626;
+    font-size: 0.85rem;
+}
+
 @media (max-width: 900px) {
     .contact__body {
         gap: 30px;

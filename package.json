@@ -23,6 +23,7 @@
     "@ng-icons/flag-icons": "^35.0.1",
     "@ng-icons/material-icons": "^35.0.1",
     "rxjs": "~7.8.0",
+    "sweetalert2": "^11.26.25",
     "tslib": "^2.3.0"
   },
   "devDependencies": {
