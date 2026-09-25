@@ -1,6 +1,8 @@
 import { Component, Input } from '@angular/core';
+import { RouterLink } from '@angular/router';
 
 export interface FeaturedProjectsItemData {
+  id: number;
   title: string;
   image: string;
   description: string;
@@ -9,7 +11,7 @@ export interface FeaturedProjectsItemData {
 
 @Component({
   selector: 'app-featured-project-item',
-  imports: [],
+  imports: [RouterLink],
   templateUrl: './featured-project-item.html',
   styleUrl: './featured-project-item.css',
 })

@@ -39,12 +39,12 @@ export const PROJECTS: ProjectData[] = [
             "AWS",
             "Ubuntu"
         ],
-        image: 'projects/ims-pwa.png',
-        image2: 'projects/ims-web.png',
+        image: 'projects/emhotels-app.png',
+        image2: 'projects/emhotels-app2.png',
         architectureImage:
             'projects/emhotels-architecture.png',
-        githubUrl: "https://vcloud04.vit.com.co/",
-        demoUrl: "https://imsmanager-pwa.web.app/"
+        githubUrl: "https://play.google.com/store/search?q=em%20hotels&c=apps",
+        demoUrl: "https://emhotels.co/"
     },
     {
         id: '3',
@@ -56,8 +56,8 @@ export const PROJECTS: ProjectData[] = [
             "AWS",
             "Authorized Buyers"
         ],
-        image: 'projects/ims-pwa.png',
-        image2: 'projects/ims-web.png',
+        image: 'projects/clicads.png',
+        image2: 'projects/clicads2.png',
         architectureImage:
             'projects/clicads-architecture.png',
         githubUrl: "https://clic-ads.com.co/",
@@ -75,8 +75,7 @@ export const PROJECTS: ProjectData[] = [
             "Vitest",
             "Supertest"
         ],
-        image: 'projects/ims-pwa.png',
-        image2: 'projects/ims-web.png',
+        image: 'projects/flow-task.png',
         architectureImage:
             'projects/flowtask-architecture.png',
         githubUrl: "https://github.com/AlexisPA01/flow-task",
@@ -89,8 +88,8 @@ export const PROJECTS: ProjectData[] = [
             "CSS",
             "JavaScript"
         ],
-        image: 'projects/ims-pwa.png',
-        image2: 'projects/ims-web.png',
+        image: 'projects/simple-web.png',
+        image2: 'projects/simple-web2.png',
         architectureImage:
             'projects/simpleweb-architecture.png',
         githubUrl: "https://github.com/AlexisPA01/simple-web-layout",

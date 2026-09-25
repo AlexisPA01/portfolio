@@ -1,7 +1,6 @@
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable, catchError, throwError } from 'rxjs';
-
 export interface EmailForm {
     name: string | null;
     email: string | null;
@@ -16,6 +15,7 @@ export class EmailService {
     constructor(private http: HttpClient) { }
 
     sendEmail(data: EmailForm): Observable<any> {
+        console.log("Enviar email");
         const httpOptions = {
             headers: new HttpHeaders({
                 'Content-Type': 'application/json'
@@ -23,7 +23,7 @@ export class EmailService {
         };
 
         return this.http.post<any>(
-            'http://localhost:3000/api/contact',
+            'https://portfolio-email-e0u0.onrender.com/api/contact',
             data,
             httpOptions)
             .pipe(

@@ -1,4 +1,4 @@
-<article class="featured-project-item">
+<article class="featured-project-item" [routerLink]="['/project-detail', featuredProject.id]">
 
     <img class="featured-project-item__image" [src]="featuredProject.image" [alt]="featuredProject.title">
     <div class="featured-project-item__content">

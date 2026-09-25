@@ -29,7 +29,8 @@
             <button type="button" class="navbar__language-button"
                 [class.navbar__language-button--active]="language.currentLanguage() === 'en'"
                 (click)="language.setLanguage('en')">
-                EN
+                <div>US</div>
+                <ng-icon name="flagUs" class="navbar__language-icon"></ng-icon>
             </button>
 
             <span class="navbar__language-separator">/</span>
@@ -37,7 +38,8 @@
             <button type="button" class="navbar__language-button"
                 [class.navbar__language-button--active]="language.currentLanguage() === 'es'"
                 (click)="language.setLanguage('es')">
-                ES
+                <div>ES</div>
+                <ng-icon name="flagEs" class="navbar__language-icon"></ng-icon>
             </button>
         </div>
     </div>

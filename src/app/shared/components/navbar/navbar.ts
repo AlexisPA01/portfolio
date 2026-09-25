@@ -1,12 +1,21 @@
 import { Component, signal } from '@angular/core';
 import { LanguageService } from '../../services/language';
 import { RouterLink, RouterLinkActive } from '@angular/router';
+import { NgIcon, provideIcons } from '@ng-icons/core';
+import { flagUs, flagEs } from '@ng-icons/flag-icons';
 
 @Component({
   selector: 'app-navbar',
   imports: [
     RouterLink,
-    RouterLinkActive
+    RouterLinkActive,
+    NgIcon
+  ],
+  providers: [
+    provideIcons({
+      flagUs,
+      flagEs
+    })
   ],
   templateUrl: './navbar.html',
   styleUrl: './navbar.css',

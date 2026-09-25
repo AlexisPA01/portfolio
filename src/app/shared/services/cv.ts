@@ -7,7 +7,8 @@ import { LanguageService } from './language';
 export class CVService {
     private language = inject(LanguageService);
 
-    downloadCV(): void {
+    downloadCV(event: Event): void {
+        event.preventDefault();
         const cvPath = this.language.currentLanguage() === 'es'
             ? 'cv/cv-es.pdf'
             : 'cv/cv-en.pdf';

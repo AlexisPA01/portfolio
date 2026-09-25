@@ -20,6 +20,7 @@
     "@ng-icons/bootstrap-icons": "^35.0.1",
     "@ng-icons/core": "^35.0.1",
     "@ng-icons/devicon": "^35.0.1",
+    "@ng-icons/flag-icons": "^35.0.1",
     "@ng-icons/material-icons": "^35.0.1",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0"

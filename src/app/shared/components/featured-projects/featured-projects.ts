@@ -18,43 +18,4 @@ export class FeaturedProjects {
   get featuredProjects(): FeaturedProjectsItemData[] {
     return this.translation.translations.home.featuredProjects.projects;
   }
-
-  featuredProjects2: FeaturedProjectsItemData[] = [
-    {
-      title: 'Development Team Lead',
-      image: 'placeholder-background.png',
-      description:
-        'Liderazgo del equipo de desarrollo y construcción de soluciones web.',
-      technologies: [
-        'Angular',
-        'Node.js',
-        'PostgreSQL',
-        'AWS'
-      ]
-    },
-    {
-      title: 'Full Stack Developer',
-      image: 'placeholder-background.png',
-      description:
-        'Desarrollo de aplicaciones web y APIs utilizando tecnologías modernas.',
-      technologies: [
-        'Node.js',
-        'Express',
-        'MySQL',
-        'AWS'
-      ]
-    },
-    {
-      title: 'Full Stack Developer',
-      image: 'placeholder-background.png',
-      description:
-        'Desarrollo de aplicaciones web y APIs utilizando tecnologías modernas.',
-      technologies: [
-        'Node.js',
-        'Express',
-        'MySQL',
-        'AWS'
-      ]
-    }
-  ];
 }

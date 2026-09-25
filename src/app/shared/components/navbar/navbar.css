@@ -65,6 +65,9 @@
 }
 
 .navbar__language-button {
+    display: flex;
+    align-items: center;
+    gap: 4px;
     padding: 5px 7px;
     border: none;
     background: transparent;
@@ -84,6 +87,10 @@
 
 .navbar__language-button--active {
     color: var(--color-primary);
+}
+
+.navbar__language-button--active>.navbar__language-icon {
+    font-size: 15px;
 }
 
 .navbar__language-separator {

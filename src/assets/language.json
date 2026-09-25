@@ -59,8 +59,9 @@
                 "title": "Featured Projects",
                 "projects": [
                     {
-                        "title": "Development Team Lead",
-                        "image": "placeholder-background.png",
+                        "id": 1,
+                        "title": "IMS Manager",
+                        "image": "projects/ims-web.png",
                         "description": "I led the development of a web-based system for parking lot management and operations, from the initial design through development, maintenance, and support.",
                         "technologies": [
                             "Angular",
@@ -72,8 +73,9 @@
                         ]
                     },
                     {
-                        "title": "Development Lead",
-                        "image": "placeholder-background.png",
+                        "id": 2,
+                        "title": "EmHotels",
+                        "image": "projects/emhotels-app.png",
                         "description": "I led the development of various technology solutions for a client in the hospitality sector, including mobile applications, PWAs for employees, and an administrative web platform.",
                         "technologies": [
                             "Angular",
@@ -87,8 +89,9 @@
                         ]
                     },
                     {
-                        "title": "Development Lead",
-                        "image": "placeholder-background.png",
+                        "id": 3,
+                        "title": "Clic-Ads",
+                        "image": "projects/clicads.png",
                         "description": "I led the development and evolution of a web platform for managing advertising campaigns through integration with Authorized Buyers, introducing new features and support for native advertising.",
                         "technologies": [
                             "Angular",
@@ -112,8 +115,8 @@
             "projects": [
                 {
                     "id": 1,
-                    "title": "Development Team Lead",
-                    "image": "placeholder-background.png",
+                    "title": "IMS Manager",
+                    "image": "projects/ims-web.png",
                     "description": "I led the development of a web-based system for parking lot management and operations, including administrative and operational modules for controlling vehicle entry and exit. I participated in database design, functionality definition, and the initial AWS infrastructure setup. I later took full responsibility for the project's development, maintenance, and support, including its migration to a private server and integrations with external services such as electronic invoicing and printing invoices using a mobile app.",
                     "technologies": [
                         "Angular",
@@ -138,8 +141,8 @@
                 },
                 {
                     "id": 2,
-                    "title": "Development Lead",
-                    "image": "placeholder-background.png",
+                    "title": "EmHotels",
+                    "image": "projects/emhotels-app.png",
                     "description": "I led the development of various technology solutions for a client in the hospitality sector, including a mobile application for iOS and Android, PWAs for employees, and an administrative web platform. I initially participated in feature development and later took on responsibilities for database design, infrastructure, and AWS services.",
                     "technologies": [
                         "Angular",
@@ -165,8 +168,8 @@
                 },
                 {
                     "id": 3,
-                    "title": "Development Lead",
-                    "image": "placeholder-background.png",
+                    "title": "Clic-Ads",
+                    "image": "projects/clicads.png",
                     "description": "I led the development and evolution of a web platform for creating and managing advertising campaigns through integration with Authorized Buyers. I initially provided support and maintenance for the existing solution and later took on the development of new features, including the implementation of native advertising campaigns.",
                     "technologies": [
                         "Angular",
@@ -191,7 +194,7 @@
                 {
                     "id": 4,
                     "title": "Flow Task",
-                    "image": "placeholder-background.png",
+                    "image": "projects/flow-task.png",
                     "description": "I developed a RESTful API for project and task management, designed with a modular and scalable architecture. The solution incorporates JWT authentication, CRUD operations, Zod-based validation, and PostgreSQL data persistence. It also includes interactive documentation with Swagger and automated testing with Vitest and Supertest.",
                     "technologies": [
                         "Node.js",
@@ -218,7 +221,7 @@
                 {
                     "id": 5,
                     "title": "White-Label Web Template",
-                    "image": "placeholder-background.png",
+                    "image": "projects/simple-web.png",
                     "description": "I developed a white-label static web project consisting of multiple pages and built with HTML, CSS, and JavaScript. The solution features reusable navigation, light and dark theme switching, and an organized, responsive, and easily adaptable structure for different types of websites.",
                     "technologies": [
                         "HTML",
@@ -534,8 +537,9 @@
                 "title": "Proyectos Destacados",
                 "projects": [
                     {
-                        "title": "Líder de desarrollo",
-                        "image": "placeholder-background.png",
+                        "id": 1,
+                        "title": "IMS Manager",
+                        "image": "projects/ims-web.png",
                         "description": "Lideré el desarrollo de un sistema web para la gestión y operación de parqueaderos, desde el diseño inicial hasta su desarrollo, mantenimiento y soporte.",
                         "technologies": [
                             "Angular",
@@ -547,8 +551,9 @@
                         ]
                     },
                     {
-                        "title": "Líder de desarrollo",
-                        "image": "placeholder-background.png",
+                        "id": 2,
+                        "title": "EmHotels",
+                        "image": "projects/emhotels-app.png",
                         "description": "Lideré el desarrollo de diversas soluciones tecnológicas para un cliente del sector hotelero, participando en aplicaciones móviles, PWA para empleados y una plataforma web administrativa.",
                         "technologies": [
                             "Angular",
@@ -562,8 +567,9 @@
                         ]
                     },
                     {
-                        "title": "Líder de desarrollo",
-                        "image": "placeholder-background.png",
+                        "id": 3,
+                        "title": "Clic-Ads",
+                        "image": "projects/clicads.png",
                         "description": "Lideré el desarrollo y evolución de una plataforma web para la gestión de campañas publicitarias mediante la integración con Authorized Buyers, incorporando nuevas funcionalidades y soporte para publicidad nativa.",
                         "technologies": [
                             "Angular",
@@ -587,8 +593,8 @@
             "projects": [
                 {
                     "id": 1,
-                    "title": "Líder de desarrollo",
-                    "image": "placeholder-background.png",
+                    "title": "IMS Manager",
+                    "image": "projects/ims-web.png",
                     "description": "Lideré el desarrollo de un sistema web para la gestión y operación de parqueaderos, incluyendo módulos administrativos y operativos para el control de ingreso y salida de vehículos. Participé en el diseño de la base de datos, definición de funcionalidades e infraestructura inicial en AWS. Posteriormente asumí el desarrollo, mantenimiento y soporte integral del proyecto, incluyendo su migración a un servidor privado e integraciones con servicios externos como facturación electrónica e impresión de facturas mediante una app movil.",
                     "technologies": [
                         "Angular",
@@ -613,8 +619,8 @@
                 },
                 {
                     "id": 2,
-                    "title": "Líder de desarrollo",
-                    "image": "placeholder-background.png",
+                    "title": "EmHotels",
+                    "image": "projects/emhotels-app.png",
                     "description": "Lideré el desarrollo de diversas soluciones tecnológicas para un cliente del sector hotelero, incluyendo una aplicación móvil para iOS y Android, PWA para empleados y una plataforma web administrativa. Participé inicialmente en el desarrollo de funcionalidades y posteriormente asumí responsabilidades en el diseño de bases de datos, infraestructura y servicios en AWS.",
                     "technologies": [
                         "Angular",
@@ -640,8 +646,8 @@
                 },
                 {
                     "id": 3,
-                    "title": "Líder de desarrollo",
-                    "image": "placeholder-background.png",
+                    "title": "Clic-Ads",
+                    "image": "projects/clicads.png",
                     "description": "Lideré el desarrollo y evolución de una plataforma web para la creación y gestión de campañas publicitarias mediante la integración con Authorized Buyers. Inicialmente brindé soporte y mantenimiento a la solución existente y posteriormente asumí el desarrollo de nuevas funcionalidades, incluyendo la implementación de campañas de publicidad nativa.",
                     "technologies": [
                         "Angular",
@@ -666,7 +672,7 @@
                 {
                     "id": 4,
                     "title": "Flow Task",
-                    "image": "placeholder-background.png",
+                    "image": "projects/flow-task.png",
                     "description": "Desarrollé una API RESTful para la gestión de proyectos y tareas, diseñada bajo una arquitectura modular y escalable. La solución incorpora autenticación JWT, operaciones CRUD, validación mediante Zod y persistencia en PostgreSQL. Además, cuenta con documentación interactiva mediante Swagger y pruebas automatizadas con Vitest y Supertest.",
                     "technologies": [
                         "Node.js",
@@ -693,7 +699,7 @@
                 {
                     "id": 5,
                     "title": "Plantilla web marca blanca",
-                    "image": "placeholder-background.png",
+                    "image": "projects/simple-web.png",
                     "description": "Desarrollé un proyecto web estático tipo marca blanca, compuesto por múltiples páginas y construido con HTML, CSS y JavaScript. La solución incorpora navegación reutilizable, cambio entre temas claro y oscuro y una estructura organizada, responsive y fácilmente adaptable para diferentes tipos de sitios web.",
                     "technologies": [
                         "HTML",
