@@ -11,19 +11,19 @@
     <div class="navbar__list" [class.navbar__list--open]="isMenuOpen()">
         <a routerLink="/" class="navbar__list-item" routerLinkActive="navbar__list-item--active"
             [routerLinkActiveOptions]="{ exact: true }">
-            Inicio
+            {{text.home}}
         </a>
 
         <a routerLink="/" fragment="about" class="navbar__list-item">
-            Sobre mí
+            {{text.about}}
         </a>
 
         <a routerLink="/projects" class="navbar__list-item" routerLinkActive="navbar__list-item--active">
-            Proyectos
+            {{text.projects}}
         </a>
 
         <a routerLink="/contact" class="navbar__list-item" routerLinkActive="navbar__list-item--active">
-            Contacto
+            {{text.contact}}
         </a>
         <div class="navbar__language">
             <button type="button" class="navbar__language-button"

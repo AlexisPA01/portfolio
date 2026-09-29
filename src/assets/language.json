@@ -1,5 +1,11 @@
 {
     "en": {
+        "navbar": {
+            "home": "Home",
+            "about": "About me",
+            "projects": "Projects",
+            "contact": "Contact me"
+        },
         "home": {
             "hero": {
                 "greeting": "Hello, I'm",
@@ -491,6 +497,12 @@
         }
     },
     "es": {
+        "navbar": {
+            "home": "Inicio",
+            "about": "Sobre mí",
+            "projects": "Proyectos",
+            "contact": "Contacto"
+        },
         "home": {
             "hero": {
                 "greeting": "Hola, soy",
